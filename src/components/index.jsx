@@ -6,7 +6,7 @@ import Clients from './clients';
 import Hero from './hero';
 import Stats from './stats';
 import Navbar from './navbar';
-import Footer from '.footer';
+import Footer from './footer';
 import CTA from './cta';
 import GetStarted from './get-started';
 import Testimonials from './testimonials';
