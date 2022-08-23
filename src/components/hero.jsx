@@ -34,6 +34,7 @@ const Hero = () => {
 						<GetStarted />
 					</div>
 				</div>
+
 				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
 					Payment Method
 				</h1>
@@ -42,6 +43,7 @@ const Hero = () => {
 					consectetur, dolorem aliquam sunt provident qui deserunt.
 				</p>
 			</div>
+
 			<div
 				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
 			>
