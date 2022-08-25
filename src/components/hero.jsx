@@ -25,9 +25,11 @@ const Hero = () => {
 				</div>
 
 				<div className="flex flex-row justify-between items-center  w-full">
-					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100px] leading-[55px]">
+					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
 						The Next <br className="hidden sm:block" />{' '}
-						<span className="text-gradient ss:text-[53px]">Generation</span>
+						<span className="text-gradient ss:text-[72px] text-[52px]">
+							Generation
+						</span>
 					</h1>
 
 					<div className="hidden ss:flex mr-0 md:mr-4 ">
@@ -35,7 +37,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<h1 className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100px] leading-[55px]">
+				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
 					Payment Method
 				</h1>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -50,7 +52,7 @@ const Hero = () => {
 				<img
 					src={robot}
 					alt="robot"
-					className=" w-[100%] h-[100%] object-cover relative z-[5]"
+					className=" w-full h-full object-cover relative z-[5]"
 				/>
 				<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
 				<div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
