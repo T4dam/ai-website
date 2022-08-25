@@ -36,9 +36,9 @@ const App = () => (
 				<Testimonials />
 				<Clients />
 				<CTA />
+				<Footer />
 				{/* 
 				<FeedbackCard />
-				<Footer />
 				<GetStarted />
        */}
 			</div>
