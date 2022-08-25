@@ -33,7 +33,7 @@ const Business = () => {
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>
 					Some kick ass title <br className="hidden sm:block" />
-					to rock the world
+					to rock your shoes
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolores
