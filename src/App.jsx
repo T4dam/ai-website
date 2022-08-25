@@ -35,10 +35,10 @@ const App = () => (
 				<CardDeal />
 				<Testimonials />
 				<Clients />
+				<CTA />
 				{/* 
 				<FeedbackCard />
 				<Footer />
-				<CTA />
 				<GetStarted />
        */}
 			</div>
