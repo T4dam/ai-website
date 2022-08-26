@@ -52,7 +52,7 @@ const Hero = () => {
 				<img
 					src={robot}
 					alt="robot"
-					className=" w-full h-full object-cover relative z-[5]"
+					className=" w-full h-full object-contain   relative z-[5]"
 				/>
 				<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
 				<div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
