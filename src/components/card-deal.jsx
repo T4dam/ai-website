@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { card } from './../assets';
+import { card, drone2 } from './../assets';
 import styles, { layout } from '../style';
 
 const CardDeal = () => {
@@ -19,7 +19,7 @@ const CardDeal = () => {
 				<Button styles={'mt-10'} text={'Start now'} />
 			</div>
 			<div className={layout.sectionImg}>
-				<img src={card} alt="cards" />
+				<img src={drone2} alt="drone" className="rounded-xl" />
 			</div>
 		</section>
 	);

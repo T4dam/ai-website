@@ -1,11 +1,16 @@
-import { apple, bill, google } from './../assets';
+import { apple, bill, google, drone1 } from './../assets';
 import styles, { layout } from '../style';
+// import { drone1 } from './../../public/drone1.png';
 
 const Billing = () => {
 	return (
 		<section className={`${layout.sectionReverse}`}>
 			<div className={layout.sectionImgReverse}>
-				<img src={bill} alt="bills" className="w-full h-full relative z-[5]" />
+				<img
+					src={drone1}
+					alt="bills"
+					className="w-full h-full relative z-[5] rounded-xl"
+				/>
 
 				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
 				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
