@@ -13,6 +13,11 @@ import {
 	send,
 	shield,
 	star,
+	forbes,
+	entrepreneur,
+	engadget,
+	techcrunch,
+	techradar,
 } from '../assets';
 
 export const navLinks = [
@@ -208,5 +213,27 @@ export const clients = [
 	{
 		id: 'client-4',
 		logo: dropbox,
+	},
+];
+export const featured = [
+	// {
+	// 	id: 'feature-1',
+	// 	logo: forbes,
+	// },
+	{
+		id: 'feature-2',
+		logo: entrepreneur,
+	},
+	{
+		id: 'feature-3',
+		logo: techcrunch,
+	},
+	// {
+	// 	id: 'feature-4',
+	// 	logo: engadget,
+	// },
+	{
+		id: 'feature-4',
+		logo: techradar,
 	},
 ];

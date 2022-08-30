@@ -25,6 +25,11 @@ import people02 from './people02.png';
 import people03 from './people03.png';
 import drone1 from './drone1.png';
 import drone2 from './drone2.png';
+import forbes from './forbes.svg';
+import entrepreneur from './entrepreneur.png';
+import engadget from './engadget.png';
+import techcrunch from './techcrunch.png';
+import techradar from './techradar.png';
 
 export {
 	airbnb,
@@ -54,4 +59,9 @@ export {
 	people03,
 	drone1,
 	drone2,
+	forbes,
+	entrepreneur,
+	techcrunch,
+	engadget,
+	techradar,
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import { discount, robot } from '../assets';
 import GetStarted from './get-started';
+import { apple, google } from './../assets/index';
 
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
@@ -58,6 +59,10 @@ const Hero = () => {
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa
 					consectetur, dolorem aliquam sunt provident qui deserunt.
 				</p>
+				<div className="flex flex-row items-center py-[12px] px-4 bg-discount-gradient rounded-[10px] mb-2 gap-4 mt-4">
+					<img src={apple} alt="" />
+					<img src={google} alt="" />
+				</div>
 			</div>
 
 			<div
@@ -93,7 +98,7 @@ const Hero = () => {
 					className=" w-full h-full object-contain   relative z-[5]"
 				/> */}
 				<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
-				<div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
+				<div className="absolute z-[0] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
 				<div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
 			</div>
 			<div className={`ss:hidden ${styles.flexCenter}`}>

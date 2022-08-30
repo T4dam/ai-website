@@ -10,6 +10,7 @@ import Footer from './footer';
 import CTA from './cta';
 import GetStarted from './get-started';
 import Testimonials from './testimonials';
+import Featured from './featured';
 
 export {
 	Billing,
@@ -24,4 +25,5 @@ export {
 	CTA,
 	GetStarted,
 	Testimonials,
+	Featured,
 };

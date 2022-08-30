@@ -13,6 +13,7 @@ import {
 	CTA,
 	GetStarted,
 	Testimonials,
+	Featured,
 } from './components';
 
 const App = () => (
@@ -29,7 +30,8 @@ const App = () => (
 		</div>
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
 			<div className={`${styles.boxWidth}`}>
-				<Stats />
+				<Featured />
+				{/* <Stats /> */}
 				<Business />
 				<Billing />
 				<CardDeal />
