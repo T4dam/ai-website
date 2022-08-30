@@ -1,7 +1,7 @@
-import Billing from './billing';
+import Bee from './bee';
 import FeedbackCard from './feedback-card';
-import Business from './business';
-import CardDeal from './/card-deal';
+import About from './about';
+import HeavyCargo from './heavy-cargo';
 import Clients from './clients';
 import Hero from './hero';
 import Stats from './stats';
@@ -13,10 +13,10 @@ import Testimonials from './testimonials';
 import Featured from './featured';
 
 export {
-	Billing,
+	Bee,
 	FeedbackCard,
-	Business,
-	CardDeal,
+	About,
+	HeavyCargo,
 	Clients,
 	Hero,
 	Stats,

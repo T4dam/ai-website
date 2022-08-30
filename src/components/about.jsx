@@ -27,13 +27,13 @@ const FeatureCards = ({ title, content, icon, index }) => {
 	);
 };
 
-const Business = () => {
+const About = () => {
 	return (
 		<section id="features" className={layout.section}>
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>
-					Some kick ass title <br className="hidden sm:block" />
-					to rock your shoes
+					AI hive mind achieved <br className="hidden sm:block" />
+					using cloud solutions
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolores
@@ -52,4 +52,4 @@ const Business = () => {
 	);
 };
 
-export default Business;
+export default About;

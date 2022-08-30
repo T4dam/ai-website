@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './style';
 import {
-	Billing,
+	Bee,
 	FeedbackCard,
-	Business,
-	CardDeal,
+	About,
+	HeavyCargo,
 	Clients,
 	Hero,
 	Stats,
@@ -32,9 +32,9 @@ const App = () => (
 			<div className={`${styles.boxWidth}`}>
 				<Featured />
 				{/* <Stats /> */}
-				<Business />
-				<Billing />
-				<CardDeal />
+				<About />
+				<Bee />
+				<HeavyCargo />
 				<Testimonials />
 				<Clients />
 				<CTA />
