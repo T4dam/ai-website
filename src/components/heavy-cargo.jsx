@@ -8,8 +8,8 @@ const HeavyCargo = () => {
 		<section className={`${layout.section}`}>
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>
-					Long endurance <br className="hidden sm:block" />
-					tactical drone
+					Cross continental <br className="hidden sm:block" />
+					flights with our new tactical drone
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eaque

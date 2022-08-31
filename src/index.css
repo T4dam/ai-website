@@ -138,3 +138,25 @@
 	background: rgba(255, 255, 255, 0.6);
 	filter: blur(750px);
 }
+
+.slick-slide > div {
+	margin: 10px 20px;
+	margin-top: 45px;
+}
+.slick-slide {
+	margin: 0 -10px;
+}
+.slick-prev:before {
+	content: '';
+}
+.slick-next:before {
+	content: '';
+}
+
+.slick-dots li button:before {
+	color: white;
+}
+
+.slick-dots li.slick-active button:before {
+	color: white;
+}

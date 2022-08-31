@@ -11,8 +11,10 @@ import CTA from './cta';
 import GetStarted from './get-started';
 import Testimonials from './testimonials';
 import Featured from './featured';
+import Responsive from './testi';
 
 export {
+	Responsive,
 	Bee,
 	FeedbackCard,
 	About,

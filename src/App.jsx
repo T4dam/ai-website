@@ -14,6 +14,7 @@ import {
 	GetStarted,
 	Testimonials,
 	Featured,
+	Responsive,
 } from './components';
 
 const App = () => (
@@ -35,7 +36,8 @@ const App = () => (
 				<About />
 				<Bee />
 				<HeavyCargo />
-				<Testimonials />
+				<Responsive />
+				{/* <Testimonials /> */}
 				<Clients />
 				<CTA />
 				<Footer />

@@ -18,6 +18,11 @@ import {
 	engadget,
 	techcrunch,
 	techradar,
+	person01,
+	person02,
+	person03,
+	person04,
+	person05,
 } from '../assets';
 
 export const navLinks = [
@@ -70,7 +75,7 @@ export const feedback = [
 			'This is crazy! I never thought I would see this in my lifetime. This technology seems to be a sentient.',
 		name: 'Herman Jensen',
 		title: 'Founder & Leader',
-		img: people01,
+		img: person01,
 	},
 	{
 		id: 'feedback-2',
@@ -78,7 +83,7 @@ export const feedback = [
 			'Sometimes I think it can understand my thoughts before I tell it to do something. Very impressive.',
 		name: 'Steve Mark',
 		title: 'Founder & Leader',
-		img: people02,
+		img: person02,
 	},
 	{
 		id: 'feedback-3',
@@ -86,7 +91,23 @@ export const feedback = [
 			'The small drone is unbelievable. How can a drone this size can think and fly like a living thing?!',
 		name: 'Kenn Gallagher',
 		title: 'Founder & Leader',
-		img: people03,
+		img: person03,
+	},
+	{
+		id: 'feedback-3',
+		content:
+			'The small drone is unbelievable. How can a drone this size can think and fly like a living thing?!',
+		name: 'Kenn Gallagher',
+		title: 'Founder & Leader',
+		img: person04,
+	},
+	{
+		id: 'feedback-3',
+		content:
+			'The small drone is unbelievable. How can a drone this size can think and fly like a living thing?!',
+		name: 'Kenn Gallagher',
+		title: 'Founder & Leader',
+		img: person05,
 	},
 ];
 

@@ -30,6 +30,11 @@ import entrepreneur from './entrepreneur.png';
 import engadget from './engadget.png';
 import techcrunch from './techcrunch.png';
 import techradar from './techradar.png';
+import person01 from './person01.jpeg';
+import person02 from './person02.jpeg';
+import person03 from './person03.jpeg';
+import person04 from './person04.jpeg';
+import person05 from './person05.jpeg';
 
 export {
 	airbnb,
@@ -64,4 +69,9 @@ export {
 	techcrunch,
 	engadget,
 	techradar,
+	person01,
+	person02,
+	person03,
+	person04,
+	person05,
 };

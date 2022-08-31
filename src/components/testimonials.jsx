@@ -2,6 +2,8 @@ import React from 'react';
 import { feedback } from '../constants';
 import styles from './../style';
 import FeedbackCard from './feedback-card';
+// import '~slick-carousel/slick/slick.css';
+// import '~slick-carousel/slick/slick-theme.css';
 
 const Testimonials = () => {
 	return (
