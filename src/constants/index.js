@@ -1,7 +1,4 @@
 import {
-	people01,
-	people02,
-	people03,
 	facebook,
 	instagram,
 	linkedin,
@@ -13,9 +10,7 @@ import {
 	send,
 	shield,
 	star,
-	forbes,
 	entrepreneur,
-	engadget,
 	techcrunch,
 	techradar,
 	person01,
@@ -96,7 +91,7 @@ export const feedback = [
 	{
 		id: 'feedback-3',
 		content:
-			'The small drone is unbelievable. How can a drone this size can think and fly like a living thing?!',
+			'Such a wonderful technology. I am glad I invested in the early stage of development.',
 		name: 'Kenn Gallagher',
 		title: 'Founder & Leader',
 		img: person04,
@@ -104,7 +99,7 @@ export const feedback = [
 	{
 		id: 'feedback-3',
 		content:
-			'The small drone is unbelievable. How can a drone this size can think and fly like a living thing?!',
+			'Most powerful device I have ever used. I am humbled by the technology.',
 		name: 'Kenn Gallagher',
 		title: 'Founder & Leader',
 		img: person05,

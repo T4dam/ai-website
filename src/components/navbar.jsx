@@ -6,7 +6,12 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<nav className="w-full flex py-6 justify-between items-center navbar">
-			<div className="w-[124px] h-[32px] bg-slate-600"></div>
+			<div className="w-[124px] h-[32px]  flex items-center gap-2">
+				<img src="/robot2.svg" alt="" className="w-[50px] h-[50px]" />
+				<p className="font-poppins font-semibold text-white mt-[5px] text-xl">
+					Aiddron
+				</p>
+			</div>
 			<ul className="sm:flex hidden list-none justify-end items-center flex-1">
 				{navLinks.map((item, index) => (
 					<li

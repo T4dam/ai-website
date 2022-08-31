@@ -7,11 +7,17 @@ const Footer = () => {
 		<footer className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
 			<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 				<div className="flex-[1] flex flex-col justify-start mr-10">
-					<img
-						src={logo}
-						alt="logo"
-						className="w-[266px] h-[72.14px] object-contain"
-					/>
+					<div className="w-[266px] h-[72.14px] flex items-center gap-3">
+						<img
+							src="/robot2.svg"
+							alt="robot"
+							className="w-[106px] h-[72.14px] object-contain"
+						/>
+
+						<p className="font-poppins font-semibold text-white mt-[5px] text-4xl">
+							Aiddron
+						</p>
+					</div>
 					<p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
 						consectetur!
