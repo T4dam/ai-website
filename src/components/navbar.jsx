@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { navLinks } from '../constants';
-import { menu, close } from '../assets';
+import { menu, close, logo } from '../assets';
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<nav className="w-full flex py-6 justify-between items-center navbar">
 			<div className="w-[124px] h-[32px]  flex items-center gap-2">
-				<img src="/robot2.svg" alt="" className="w-[50px] h-[50px]" />
+				<img src={logo} alt="" className="w-[50px] h-[50px]" />
 				<p className="font-poppins font-semibold text-white mt-[5px] text-xl">
 					Aiddron
 				</p>

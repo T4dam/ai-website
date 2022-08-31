@@ -9,7 +9,7 @@ const Footer = () => {
 				<div className="flex-[1] flex flex-col justify-start mr-10">
 					<div className="w-[266px] h-[72.14px] flex items-center gap-3">
 						<img
-							src="/robot2.svg"
+							src={logo}
 							alt="robot"
 							className="w-[106px] h-[72.14px] object-contain"
 						/>

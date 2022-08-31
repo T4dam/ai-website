@@ -18,8 +18,10 @@ const Bee = () => {
 			</div>
 			<div className={`${layout.sectionInfo}`}>
 				<h2 className={styles.heading2}>
-					This friendly <br className="hidden sm:block" />
-					bee will fit through any crack
+					This friendly bee
+					<br className="hidden sm:block" />
+					will fit through <br className="hidden sm:block" />
+					smallest of cracks
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed magni

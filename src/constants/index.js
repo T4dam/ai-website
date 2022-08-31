@@ -76,7 +76,7 @@ export const feedback = [
 		id: 'feedback-2',
 		content:
 			'Sometimes I think it can understand my thoughts before I tell it to do something. Very impressive.',
-		name: 'Steve Mark',
+		name: 'Cloudia Smith',
 		title: 'Founder & Leader',
 		img: person02,
 	},
@@ -92,7 +92,7 @@ export const feedback = [
 		id: 'feedback-3',
 		content:
 			'Such a wonderful technology. I am glad I invested in the early stage of development.',
-		name: 'Kenn Gallagher',
+		name: 'Lisa Groot',
 		title: 'Founder & Leader',
 		img: person04,
 	},
@@ -100,7 +100,7 @@ export const feedback = [
 		id: 'feedback-3',
 		content:
 			'Most powerful device I have ever used. I am humbled by the technology.',
-		name: 'Kenn Gallagher',
+		name: 'John Vainer',
 		title: 'Founder & Leader',
 		img: person05,
 	},
