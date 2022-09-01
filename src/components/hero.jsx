@@ -48,7 +48,7 @@ const Hero = () => {
 					</h1>
 
 					<div className="hidden ss:flex mr-0 md:mr-4 ">
-						<GetStarted />
+						{/* <GetStarted /> */}
 					</div>
 				</div>
 

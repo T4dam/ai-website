@@ -61,7 +61,10 @@ const Responsive = () => {
 				<Slider {...settings}>
 					{feedback.map((item) => {
 						return (
-							<div class="bg-black-gradient h-[380px] lg:h-[335px] dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl ">
+							<div
+								key={item.id}
+								className="bg-black-gradient h-[380px] lg:h-[335px] dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl "
+							>
 								<div className="w-[100px] h-[100px] mt-[-70px] mx-auto">
 									<div className="p-1 bg-black-gradient rounded-full">
 										<img src={item.img} className="m-auto rounded-full" />
@@ -69,7 +72,7 @@ const Responsive = () => {
 								</div>
 								<div className="flex justify-between items-center">
 									<div>
-										<h3 class="font-poppins font-semibold text-[20px] leading-[32px] text-white dark:text-white mt-5 text-base font-medium tracking-tight">
+										<h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white dark:text-white mt-5 text-base font-medium tracking-tight">
 											{item.name}
 										</h3>
 										<p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
@@ -80,7 +83,7 @@ const Responsive = () => {
 										style={{ color: '#5ce1e6', fontSize: '40px' }}
 									/>
 								</div>
-								<p class="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10 dark:text-slate-400 mt-4 ">
+								<p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10 dark:text-slate-400 mt-4 ">
 									{item.content}
 								</p>
 							</div>
