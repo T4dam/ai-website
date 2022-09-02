@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from '../style';
-import { aiBadge, discount, robot } from '../assets';
+import { discount, robot } from '../assets';
 import GetStarted from './get-started';
 import { apple, google } from './../assets/index';
+import './..//scss/index.scss';
 
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
@@ -42,9 +43,7 @@ const Hero = () => {
 					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
 						New AI
 						<br className="hidden sm:block" />{' '}
-						<span className="text-gradient ss:text-[72px] text-[52px]">
-							Powered
-						</span>
+						<span className=" ss:text-[72px] text-[52px]">Powered</span>
 					</h1>
 
 					<div className="hidden ss:flex mr-0 md:mr-4 ">

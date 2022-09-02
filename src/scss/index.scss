@@ -1,0 +1,27 @@
+span {
+	animation: parallax 10s linear infinite;
+
+	background: {
+		image: url('https://data.embeddedcomputing.com/uploads/resize/320/200/external/data.embeddedcomputing.com/uploads/articles/primary_images/1660073289.jpg');
+		clip: text;
+		size: 600px;
+		filter: hue-rotate(90deg);
+	}
+
+	// font-size: min(17em, 34vw);
+	// line-height: 1.5;
+	// text-align: center;
+	-webkit-text-fill-color: transparent;
+	// -webkit-text-stroke: 3px #000;
+}
+
+@keyframes parallax {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		// filter: blur(1px);
+		background-position: 500px -1000px;
+	}
+}

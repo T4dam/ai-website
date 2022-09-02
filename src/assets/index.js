@@ -31,7 +31,6 @@ import person02 from './person02.jpeg';
 import person03 from './person03.jpeg';
 import person04 from './person04.jpeg';
 import person05 from './person05.jpeg';
-import aiBadge from './ai-badge.png';
 import camera from './camera.svg';
 
 export {
@@ -68,6 +67,5 @@ export {
 	person03,
 	person04,
 	person05,
-	aiBadge,
 	camera,
 };
