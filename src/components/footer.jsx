@@ -1,6 +1,7 @@
 import styles from '../style';
 import { logo } from './../assets';
 import { footerLinks, socialMedia } from '../constants';
+import { motion } from 'framer-motion';
 
 const Footer = () => {
 	return (
@@ -8,12 +9,26 @@ const Footer = () => {
 			<div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
 				<div className="flex-[1] flex flex-col justify-start mr-10">
 					<div className="w-[266px] h-[72.14px] flex items-center gap-3">
-						<img
-							src={logo}
-							alt="robot"
-							className="w-[106px] h-[72.14px] object-contain"
-						/>
-
+						<motion.div
+							whileHover={{
+								position: 'relative',
+								zIndex: 1,
+								scale: [1, 1.4, 1.2],
+								rotate: [0, 10, -10, 0],
+								transition: {
+									duration: 0.2,
+								},
+							}}
+							className="self-start"
+						>
+							<a href="#">
+								<img
+									src={logo}
+									alt="robot"
+									className="w-[106px] h-[72.14px] object-contain"
+								/>
+							</a>
+						</motion.div>
 						<p className="font-poppins font-semibold text-white mt-[5px] text-4xl">
 							Aiddron
 						</p>

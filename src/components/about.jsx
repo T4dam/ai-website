@@ -2,6 +2,7 @@ import React from 'react';
 import { features } from '../constants';
 import styles, { layout } from '../style';
 import Button from './button';
+import { motion } from 'framer-motion';
 
 const FeatureCards = ({ title, content, icon, index }) => {
 	return (
@@ -13,7 +14,24 @@ const FeatureCards = ({ title, content, icon, index }) => {
 			<div
 				className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
 			>
-				<img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
+				<motion.div
+					whileHover={{
+						position: 'relative',
+						zIndex: 1,
+						scale: [1, 1.4, 1.2],
+						rotate: [0, 10, -10, 0],
+						transition: {
+							duration: 0.2,
+						},
+					}}
+					className={`${styles.flexCenter}`}
+				>
+					<img
+						src={icon}
+						alt="icon"
+						className="w-[50%] h-[50%] object-contain"
+					/>
+				</motion.div>
 			</div>
 			<div className="flex flex-1 flex-col ml-3 justify-center">
 				<h4 className=" leading-[23px] font-semibold text-white text-[18px] font-poppins">
