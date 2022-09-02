@@ -56,7 +56,7 @@ const Footer = () => {
 				<p
 					className={`font-poppins font-normal text-center text-[18px] leading-[27px] text-white`}
 				>
-					Copyright ... 2022. All rights reserved
+					Copyright Aiddron 2022. All rights reserved
 				</p>
 				<div className="flex md:mt-0 mt-6">
 					{socialMedia.map((item, index) => {

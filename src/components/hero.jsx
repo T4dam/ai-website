@@ -43,7 +43,9 @@ const Hero = () => {
 					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
 						New AI
 						<br className="hidden sm:block" />{' '}
-						<span className=" ss:text-[72px] text-[52px]">Powered</span>
+						<span className="brightness-110 ss:text-[72px] text-[52px]">
+							Powered
+						</span>
 					</h1>
 
 					<div className="hidden ss:flex mr-0 md:mr-4 ">

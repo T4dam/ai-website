@@ -10,7 +10,7 @@ const Bee = () => {
 				<img
 					src={drone1}
 					alt="bills"
-					className="w-full h-full relative z-[5] rounded-xl"
+					className="w-full h-full relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl"
 				/>
 
 				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />

@@ -46,7 +46,7 @@ export const features = [
 		icon: camera,
 		title: 'Securtity',
 		content:
-			'The drones are programmed to automatically report any suspicious activity to the authorities.',
+			'Programmed to automatically report suspicious activity to the authorities.',
 	},
 	{
 		id: 'feature-2',
@@ -130,24 +130,24 @@ export const footerLinks = [
 		title: 'Useful Links',
 		links: [
 			{
-				name: 'Content',
-				link: 'https://www.hoobank.com/content/',
+				name: 'Home',
+				link: '#',
 			},
 			{
-				name: 'How it Works',
-				link: 'https://www.hoobank.com/how-it-works/',
+				name: 'Features',
+				link: '#',
 			},
 			{
-				name: 'Create',
-				link: 'https://www.hoobank.com/create/',
+				name: 'Product',
+				link: '#',
 			},
 			{
-				name: 'Explore',
-				link: 'https://www.hoobank.com/explore/',
+				name: 'Clients',
+				link: '#',
 			},
 			{
 				name: 'Terms & Services',
-				link: 'https://www.hoobank.com/terms-and-services/',
+				link: '#',
 			},
 		],
 	},
@@ -156,23 +156,23 @@ export const footerLinks = [
 		links: [
 			{
 				name: 'Help Center',
-				link: 'https://www.hoobank.com/help-center/',
+				link: '#',
 			},
 			{
-				name: 'Partners',
-				link: 'https://www.hoobank.com/partners/',
+				name: 'Patrions',
+				link: '#',
 			},
 			{
-				name: 'Suggestions',
-				link: 'https://www.hoobank.com/suggestions/',
+				name: 'Discord',
+				link: '#',
 			},
 			{
 				name: 'Blog',
-				link: 'https://www.hoobank.com/blog/',
+				link: '#',
 			},
 			{
 				name: 'Newsletters',
-				link: 'https://www.hoobank.com/newsletters/',
+				link: '#',
 			},
 		],
 	},
@@ -180,12 +180,12 @@ export const footerLinks = [
 		title: 'Partner',
 		links: [
 			{
-				name: 'Our Partner',
-				link: 'https://www.hoobank.com/our-partner/',
+				name: 'Our Partners',
+				link: '#',
 			},
 			{
 				name: 'Become a Partner',
-				link: 'https://www.hoobank.com/become-a-partner/',
+				link: '#',
 			},
 		],
 	},

@@ -86,10 +86,7 @@
 }
 
 .box {
-	/* Required properties */
 	position: relative;
-
-	/* Use  your own styles here */
 }
 
 /* .box:before {
@@ -108,11 +105,7 @@
 	border-radius: inherit;
 }
 
-/* 
-* Prevents issues when the parent creates a 
-* stacking context. (For example, using the transform
-* property )
-*/
+
 /*
 .box::after {
 	content: '';

@@ -6,7 +6,7 @@ const CTA = () => {
 			className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
 		>
 			<div className={`flex-1 flex flex-col`}>
-				<h4 className={`${styles.heading2}`}>Lets hit that shit yo</h4>
+				<h4 className={`${styles.heading2}`}>Start using Aiddron today</h4>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae hic
 					aliquam similique

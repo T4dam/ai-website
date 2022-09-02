@@ -38,7 +38,7 @@ const App = () => (
 				<HeavyCargo />
 				<Responsive />
 				{/* <Testimonials /> */}
-				<Clients />
+				{/* <Clients /> */}
 				<CTA />
 				<Footer />
 				{/* 
