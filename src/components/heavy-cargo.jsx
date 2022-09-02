@@ -6,7 +6,7 @@ import styles, { layout } from '../style';
 const HeavyCargo = () => {
 	return (
 		<section className={`${layout.section}`}>
-			<div className={layout.sectionInfo}>
+			<div className={`${layout.sectionInfo}`}>
 				<h2 className={styles.heading2}>
 					Cross continental <br className="hidden sm:block" />
 					flights with our new tactical drone
