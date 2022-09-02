@@ -32,6 +32,9 @@ import person03 from './person03.jpeg';
 import person04 from './person04.jpeg';
 import person05 from './person05.jpeg';
 import camera from './camera.svg';
+import cloud from './cloud.svg';
+import world from './world.svg';
+import store from './store.svg';
 
 export {
 	airbnb,
@@ -68,4 +71,7 @@ export {
 	person04,
 	person05,
 	camera,
+	cloud,
+	store,
+	world,
 };

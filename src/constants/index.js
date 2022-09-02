@@ -19,6 +19,9 @@ import {
 	person04,
 	person05,
 	camera,
+	world,
+	store,
+	cloud,
 } from '../assets';
 
 export const navLinks = [
@@ -193,20 +196,20 @@ export const footerLinks = [
 
 export const howItWorks = [
 	{
-		id: 'how-1',
-		icon: '',
+		id: '1',
+		icon: store,
 		title: 'Buy the drone',
 		discription: 'Buy the drone from our website or from a local retailer.',
 	},
 	{
-		id: 'how-2',
-		icon: '',
+		id: '2',
+		icon: cloud,
 		title: 'Set up the drone',
 		discription: 'Turn the drone on and connect it to the StartLink internet.',
 	},
 	{
-		id: 'how-3',
-		icon: '',
+		id: '3',
+		icon: world,
 		title: 'Hello World',
 		discription: 'Your drone is now self-aware and ready to fly.',
 	},
