@@ -141,6 +141,13 @@
 	}
 }
 
+.cards {
+	background: var(--black-gradient);
+	box-shadow: var(--card-shadow);
+}
+.cards:hover {
+}
+
 .feature-card:hover {
 	background: var(--black-gradient);
 	box-shadow: var(--card-shadow);

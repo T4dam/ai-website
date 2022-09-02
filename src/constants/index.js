@@ -191,6 +191,27 @@ export const footerLinks = [
 	},
 ];
 
+export const howItWorks = [
+	{
+		id: 'how-1',
+		icon: '',
+		title: 'Buy the drone',
+		discription: 'Buy the drone from our website or from a local retailer.',
+	},
+	{
+		id: 'how-2',
+		icon: '',
+		title: 'Set up the drone',
+		discription: 'Turn the drone on and connect it to the StartLink internet.',
+	},
+	{
+		id: 'how-3',
+		icon: '',
+		title: 'Hello World',
+		discription: 'Your drone is now self-aware and ready to fly.',
+	},
+];
+
 export const socialMedia = [
 	{
 		id: 'social-media-1',

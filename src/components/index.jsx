@@ -12,6 +12,7 @@ import GetStarted from './get-started';
 import Testimonials from './testimonials';
 import Featured from './featured';
 import Responsive from './testi';
+import HowItWorks from './how-it-works-card';
 
 export {
 	Responsive,
@@ -28,4 +29,5 @@ export {
 	GetStarted,
 	Testimonials,
 	Featured,
+	HowItWorks,
 };
