@@ -18,6 +18,7 @@ import {
 	person03,
 	person04,
 	person05,
+	camera,
 } from '../assets';
 
 export const navLinks = [
@@ -42,24 +43,24 @@ export const navLinks = [
 export const features = [
 	{
 		id: 'feature-1',
-		icon: star,
-		title: 'Rewards',
+		icon: camera,
+		title: 'Securtity',
 		content:
-			'The best credit cards offer some tantalizing combinations of promotions and prizes',
+			'The drones are programmed to automatically report any suspicious activity to the authorities.',
 	},
 	{
 		id: 'feature-2',
 		icon: shield,
-		title: '100% Secured',
+		title: 'Good return on investment',
 		content:
-			'We take proactive steps make sure your information and transactions are secure.',
+			'The drone has its own mind and therefore it requires little to no maintainace.',
 	},
 	{
 		id: 'feature-3',
 		icon: send,
-		title: 'Balance Transfer',
+		title: 'Easy to use',
 		content:
-			'A balance transfer credit card can save you a lot of money in interest charges.',
+			'Just tell the drone what shots need to be taken and it will take care of the rest',
 	},
 ];
 

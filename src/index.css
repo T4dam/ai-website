@@ -41,8 +41,8 @@
 		#bef3f5 -21.24%,
 		#9dedf0 12.19%,
 		#7de7eb 29.82%,
-		#5ce1e6 51.94%,
-		#33bbcf 90.29%
+		#51c5c9 51.94%,
+		#24a2b5 90.29%
 	);
 }
 
@@ -83,6 +83,46 @@
 .sidebar {
 	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.box {
+	/* Required properties */
+	position: relative;
+
+	/* Use  your own styles here */
+}
+
+.box:before {
+	content: '';
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(-45deg, #63a4ff 0%, #83eaf1 100%);
+	transform: translate3d(3px, 6px, 100px) scale(0.99);
+	filter: blur(10px);
+	opacity: var(0.7);
+	transition: opacity 0.3s;
+	border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.box::after {
+	content: '';
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: inherit;
+	border-radius: inherit;
 }
 
 @-webkit-keyframes slide-top {

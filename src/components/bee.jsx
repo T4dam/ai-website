@@ -6,7 +6,7 @@ import Button from './button';
 const Bee = () => {
 	return (
 		<section id="product" className={`${layout.sectionReverse}`}>
-			<div className={layout.sectionImgReverse}>
+			<div className={` ${layout.sectionImgReverse} box`}>
 				<img
 					src={drone1}
 					alt="bills"

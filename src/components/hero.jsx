@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import { discount, robot } from '../assets';
+import { aiBadge, discount, robot } from '../assets';
 import GetStarted from './get-started';
 import { apple, google } from './../assets/index';
 
@@ -38,8 +38,8 @@ const Hero = () => {
 					</p>
 				</div> */}
 
-				<div className="flex flex-row justify-between items-center  w-full">
-					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+				<div className="flex flex-row  items-center gap-4">
+					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
 						New AI
 						<br className="hidden sm:block" />{' '}
 						<span className="text-gradient ss:text-[72px] text-[52px]">
@@ -49,10 +49,15 @@ const Hero = () => {
 
 					<div className="hidden ss:flex mr-0 md:mr-4 ">
 						{/* <GetStarted /> */}
+						{/* <img
+							src={aiBadge}
+							alt=""
+							className=" object-contain h-[135px] w-[130px]"
+						/> */}
 					</div>
 				</div>
 
-				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
 					Smart Drones
 				</h1>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -102,7 +107,11 @@ const Hero = () => {
 				<div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
 			</div>
 			<div className={`ss:hidden ${styles.flexCenter}`}>
-				<GetStarted />
+				{/* <img
+					src={aiBadge}
+					alt=""
+					className=" object-contain h-[135px] w-[130px]"
+				/> */}
 			</div>
 		</section>
 	);

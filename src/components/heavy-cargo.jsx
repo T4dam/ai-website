@@ -18,9 +18,13 @@ const HeavyCargo = () => {
 				</p>
 				<Button styles={'mt-10'} text={'Preorder'} />
 			</div>
-			<div className={layout.sectionImg}>
+			<div className={`box ${layout.sectionImg}`}>
 				<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
-				<img src={drone2} alt="drone" className="rounded-xl" />
+				<img
+					src={drone2}
+					alt="drone"
+					className="w-full h-full relative z-[5] rounded-xl"
+				/>
 			</div>
 		</section>
 	);
