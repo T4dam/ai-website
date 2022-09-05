@@ -2,7 +2,7 @@ import React from 'react';
 import { howItWorks } from '../constants';
 // import { feedback } from '../constants';
 import styles from './../style';
-import { HowItWorks } from './../components';
+import { HowItWorksCard } from './../components';
 // import '~slick-carousel/slick/slick.css';
 // import '~slick-carousel/slick/slick-theme.css';
 
@@ -22,7 +22,7 @@ const Testimonials = () => {
 			</div>
 			<div className=" flex flex-1 flex-col md:flex-row  gap-4 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
 				{howItWorks.map((item) => {
-					return <HowItWorks key={item.id} {...item} />;
+					return <HowItWorksCard key={item.id} {...item} />;
 				})}
 			</div>
 		</section>

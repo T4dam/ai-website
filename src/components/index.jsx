@@ -13,6 +13,7 @@ import Testimonials from './testimonials';
 import Featured from './featured';
 import Responsive from './testi';
 import HowItWorks from './how-it-works-card';
+import HowItWorksCard from './howItWorksCard';
 
 export {
 	Responsive,
@@ -30,4 +31,5 @@ export {
 	Testimonials,
 	Featured,
 	HowItWorks,
+	HowItWorksCard,
 };

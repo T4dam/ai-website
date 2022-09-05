@@ -141,6 +141,16 @@
 	}
 }
 
+.userselect-none {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+.perspetive {
+	perspective: 2000;
+}
+
 .cards {
 	background: var(--black-gradient);
 	box-shadow: var(--card-shadow);

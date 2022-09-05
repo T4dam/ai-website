@@ -28,7 +28,7 @@ const HowItWorks = ({ id, title, icon, discription }) => {
 				</motion.div>
 			</div>
 
-			<div className="flex flex-col ">
+			<div className="flex flex-col overflow-hidden ">
 				<div className="flex flex-row">
 					<div className="flex flex-col mt-4 ml-4">
 						<h4 className="font-poppins font-semibold text-[24px] md:text-[20px] leading-[32px] text-white">
@@ -44,11 +44,11 @@ const HowItWorks = ({ id, title, icon, discription }) => {
 					<img
 						src={icon}
 						alt="icon"
-						className=" md:hidden -mr-40 md:-mr-32 w-[400px] h-[400x] md:w-[px] md:w-[px]"
+						className=" md:hidden absolute top-13 sm:right-[-150px] w-[250px] h-[250px] sm:w-[350px] sm:h-[350x] md:w-[px] md:w-[px]"
 					/>
 				</div>
 				<div className="md:mt-15 flex flex-row gap-2 justify-between items-center md:justify-center md:items-end">
-					<p className={`hidden md:block${styles.paragraph}`}>Learn more ></p>
+					<p className={`hidden md:block ${styles.paragraph}`}>Learn more ></p>
 					<img
 						src={icon}
 						alt="icon"
