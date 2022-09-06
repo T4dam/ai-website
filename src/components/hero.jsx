@@ -74,7 +74,7 @@ const Hero = () => {
 			<div
 				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
 			>
-				<Canvas>
+				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />
 					<PresentationControls
 						global
