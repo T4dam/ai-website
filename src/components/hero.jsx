@@ -65,14 +65,14 @@ const Hero = () => {
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa
 					consectetur, dolorem aliquam sunt provident qui deserunt.
 				</p>
-				<div className="flex flex-row items-center py-[12px] px-4 bg-discount-gradient rounded-[10px] mb-2 gap-4 mt-4">
+				<div className="flex flex-row flex-wrap items-center py-[12px] px-4 bg-discount-gradient rounded-[10px] mb-2 gap-4 mt-4">
 					<img src={apple} alt="" />
 					<img src={google} alt="" />
 				</div>
 			</div>
 
 			<div
-				className={`hidden xs:block flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
+				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
 			>
 				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />
