@@ -59,12 +59,12 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 						{discription}
 					</p>
 					<div className=" inline-block h-full flex flex-col justify-end">
-						<p className="w-[140px] flex flex-row  items-center text-white font-poppins font-normal text-[20px] md:text-[16px] leading-[24px] text-dimWhite cursor-pointer ">
+						<a className=" block w-[190px] md:w-[130px] flex flex-row  items-center text-white font-poppins font-normal text-[20px] md:text-[16px] leading-[24px] text-dimWhite cursor-pointer ">
 							Learn more
-							<div className=" flex justify-center items-center ml-2 w-[20px] h-[20px] bg-blue-200 text-white rounded-[50%]">
+							<div className=" inline-block flex justify-center items-center ml-2 w-[20px] h-[20px] bg-[#00F6FF]  rounded-[50%]">
 								<GrFormNext />
 							</div>
-						</p>
+						</a>
 					</div>
 				</div>
 			</motion.div>

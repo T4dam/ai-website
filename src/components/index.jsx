@@ -11,9 +11,10 @@ import CTA from './cta';
 import GetStarted from './get-started';
 import Testimonials from './testimonials';
 import Featured from './featured';
-import Responsive from './testi';
+import Responsive from './testimonials';
 import HowItWorks from './how-it-works-card';
 import HowItWorksCard from './howItWorksCard';
+import HowItWorksSection from './how-it-works-section';
 
 export {
 	Responsive,
@@ -32,4 +33,5 @@ export {
 	Featured,
 	HowItWorks,
 	HowItWorksCard,
+	HowItWorksSection,
 };
