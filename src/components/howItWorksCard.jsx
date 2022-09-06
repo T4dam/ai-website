@@ -20,7 +20,7 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 				dragElastic={0.16}
 				dragConstraints={{ top: 0, right: 0, left: 0, bottom: 0 }}
 				style={{ x, y, rotateX, rotateY, z: 100 }}
-				className=" w-full md:w-[285px] h-[500px] xs:h-[265px] md:h-[500px] flex flex-row md:flex-col rounded-[25px] shadow-lg cards relative cursor-grab"
+				className=" w-full mg:w-[285px] lg:w-[320px] h-[500px] xs:h-[265px] md:h-[500px] flex flex-row md:flex-col rounded-[25px] shadow-lg cards relative cursor-grab"
 			>
 				<div className="w-full flex flex-col flex-[1.2] relative items-center justify-end py-[1em] px-[15px]">
 					<div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">

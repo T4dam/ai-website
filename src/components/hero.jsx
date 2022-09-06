@@ -72,7 +72,7 @@ const Hero = () => {
 			</div>
 
 			<div
-				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
+				className={`hidden xs:block flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
 			>
 				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />
