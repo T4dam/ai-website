@@ -3,8 +3,9 @@ import React from 'react';
 // import { logo } from './../assets';
 import { motion } from 'framer-motion';
 import logo from './../assets/logo.svg';
+import { GrFormNext } from 'react-icons/gr';
 
-const HowItWorksCard = ({ id, title, icon, discription }) => {
+const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 	const x = useMotionValue(0);
 	const y = useMotionValue(0);
 	const rotateX = useTransform(y, [-100, 100], [30, -30]);
@@ -24,11 +25,19 @@ const HowItWorksCard = ({ id, title, icon, discription }) => {
 					{/* <div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">
 						<div className="absolute w-[350px] h-[350px] top-[-4.2em] right-[-10em] z-[5] bg-[#24a2b5] rounded-[50%]"></div>
 					</div> */}
+					<div className="w-full h-full flex items-center justify-center">
+						<img
+							src={shadow}
+							alt=""
+							unselectable="on"
+							className="w-auto h-full userselect-none w-[190px] h-[190px] blur-[2px]"
+						/>
+					</div>
 					<div className="w-full h-full absolute flex items-center justify-center">
 						<motion.div
 							style={{ x, y, rotateX, rotateY, z: 100000 }}
 							drag
-							// whileTap={{ cursor: 'grabbing' }}
+							whileTap={{ cursor: 'grabbing' }}
 							dragElastic={0.12}
 							unselectable="on"
 							className="w-auto h-[190px] z-[99] userselect-none "
@@ -45,10 +54,18 @@ const HowItWorksCard = ({ id, title, icon, discription }) => {
 						{title}
 					</h2>
 				</div>
-				<div className="flex flex-1 px-[1em]">
+				<div className="flex flex-[0.8] w-full h-full flex-col px-[1em] pb-[3em]">
 					<p className="font-poppins font-normal text-[20px] md:text-[16px] leading-[24px] text-dimWhite max-w-[300px]">
 						{discription}
 					</p>
+					<div className=" inline-block h-full flex flex-col justify-end">
+						<p className="w-[140px] flex flex-row  items-center text-white font-poppins font-normal text-[20px] md:text-[16px] leading-[24px] text-dimWhite cursor-pointer ">
+							Learn more
+							<div className=" flex justify-center items-center ml-2 w-[20px] h-[20px] bg-blue-200 text-white rounded-[50%]">
+								<GrFormNext />
+							</div>
+						</p>
+					</div>
 				</div>
 			</motion.div>
 		</div>

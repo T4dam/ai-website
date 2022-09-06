@@ -34,7 +34,10 @@ import person05 from './person05.jpeg';
 import camera from './camera.svg';
 import cloud from './cloud.svg';
 import world from './world.svg';
-import store from './store.svg';
+import credit from './credit.svg';
+import creditShadow from './credit-shadow.svg';
+import worldShadow from './world-shadow.svg';
+import cloudShadow from './cloud-shadow.svg';
 
 export {
 	airbnb,
@@ -72,6 +75,10 @@ export {
 	person05,
 	camera,
 	cloud,
-	store,
+	// store,
 	world,
+	credit,
+	creditShadow,
+	worldShadow,
+	cloudShadow,
 };
