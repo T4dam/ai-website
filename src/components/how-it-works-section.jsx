@@ -20,11 +20,11 @@ const HowItWorksSection = () => {
 					</p>
 				</div>
 			</div>
-			{/* <div className=" flex flex-1 flex-col md:flex-row  gap-4 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
+			<div className=" flex flex-1 flex-col md:flex-row  gap-4 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
 				{howItWorks.map((item) => {
 					return <HowItWorksCard key={item.id} {...item} />;
 				})}
-			</div> */}
+			</div>
 		</section>
 	);
 };
