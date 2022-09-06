@@ -33,6 +33,10 @@ export const navLinks = [
 		title: 'Home',
 	},
 	{
+		id: 'howitworks',
+		title: 'How it works',
+	},
+	{
 		id: 'features',
 		title: 'Features',
 	},
@@ -40,10 +44,10 @@ export const navLinks = [
 		id: 'product',
 		title: 'Product',
 	},
-	{
-		id: 'clients',
-		title: 'Clients',
-	},
+	// {
+	// 	id: 'clients',
+	// 	title: 'Testimonials',
+	// },
 ];
 
 export const features = [
