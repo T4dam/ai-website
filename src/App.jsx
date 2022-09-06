@@ -2,20 +2,15 @@ import React from 'react';
 import styles from './style';
 import {
 	Bee,
-	FeedbackCard,
 	About,
 	HeavyCargo,
-	Clients,
 	Hero,
-	Stats,
 	Navbar,
 	Footer,
 	CTA,
-	GetStarted,
 	Testimonials,
 	Featured,
 	HowItWorksSection,
-	Responsive,
 } from './components';
 
 const App = () => (

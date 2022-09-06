@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import logo from './../assets/logo.svg';
 import { GrFormNext } from 'react-icons/gr';
+import styles from '../style';
 
 const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 	const x = useMotionValue(0);
@@ -22,9 +23,27 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 				className="w-[285px] h-[500px] flex flex-col rounded-[25px] shadow-lg cards relative cursor-grab"
 			>
 				<div className="w-full flex flex-col flex-[1.2] relative items-center justify-end py-[1em] px-[15px]">
-					{/* <div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">
-						<div className="absolute w-[350px] h-[350px] top-[-4.2em] right-[-10em] z-[5] bg-[#24a2b5] rounded-[50%]"></div>
-					</div> */}
+					<div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">
+						<div
+							className={`w-[44px] h-[44px] rounded-full ${styles.flexCenter} bg-blue-gradient cursor-pointer absolute top-4 left-4`}
+						>
+							<motion.div
+								whileHover={{
+									position: 'relative',
+									zIndex: 1,
+									scale: [1, 1.4, 1.2],
+									transition: {
+										duration: 0.2,
+									},
+								}}
+								className={`${styles.flexCenter} w-[38px] h-[38px] rounded-full bg-black-gradient`}
+							>
+								<p className="font-semibold text-white text-2xl">{id}</p>
+								{/* <img src="" alt="" className="w-[50%] h-[50%] object-contain" /> */}
+							</motion.div>
+						</div>
+						{/* <div className="absolute w-[350px] h-[350px] top-[-4.2em] right-[-10em] z-[5] bg-[#24a2b5] rounded-[50%]"></div> */}
+					</div>
 					<div className="w-full h-full flex items-center justify-center">
 						<img
 							src={shadow}
