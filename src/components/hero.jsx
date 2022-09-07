@@ -40,7 +40,7 @@ const Hero = () => {
 				</div> */}
 
 				<div className="flex flex-row  items-center gap-4">
-					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
+					<h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] xs:leading-[75px] leading-[60px]">
 						New AI
 						<br className="hidden sm:block" />{' '}
 						<span className="brightness-110 ss:text-[72px] text-[52px]">
@@ -58,7 +58,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[75px]">
+				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] xs:leading-[75px] leading-[60px]">
 					Smart Drones
 				</h1>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
