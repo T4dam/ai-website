@@ -11,6 +11,7 @@ import {
 	Testimonials,
 	Featured,
 	HowItWorksSection,
+	Testi,
 } from './components';
 
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
 			<div className={`${styles.boxWidth}`}>
 				<Featured />
+				<Testi />
 				<HowItWorksSection />
 				<About />
 				<Bee />

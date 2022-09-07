@@ -15,6 +15,7 @@ import Responsive from './testimonials';
 import HowItWorks from './how-it-works-card';
 import HowItWorksCard from './howItWorksCard';
 import HowItWorksSection from './how-it-works-section';
+import Testi from './testi';
 
 export {
 	Responsive,
@@ -34,4 +35,5 @@ export {
 	HowItWorks,
 	HowItWorksCard,
 	HowItWorksSection,
+	Testi,
 };
