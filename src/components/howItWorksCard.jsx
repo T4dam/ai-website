@@ -20,9 +20,9 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 				dragElastic={0.16}
 				dragConstraints={{ top: 0, right: 0, left: 0, bottom: 0 }}
 				style={{ x, y, rotateX, rotateY, z: 100 }}
-				className=" w-full mg:w-[285px] lg:w-[320px] ll:w-[340px] h-[500px] xs:h-[265px] md:h-[500px] flex flex-col xs:flex-row md:flex-col rounded-[25px] shadow-lg cards relative cursor-grab"
+				className=" w-full mg:w-[285px] lg:w-[320px] ll:w-[340px] h-[400px] xs:h-[265px] md:h-[500px] flex flex-col xs:flex-row md:flex-col rounded-[25px] shadow-lg cards relative cursor-grab"
 			>
-				<div className="w-full flex flex-col flex-[1.2] relative items-center justify-end py-[1em] px-[15px]">
+				<div className="w-full flex flex-col flex-1 xs:flex-[1.2] relative items-center justify-end py-[1em] px-[15px]">
 					<div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">
 						<div
 							className={`w-[44px] h-[44px] rounded-full ${styles.flexCenter} bg-blue-gradient cursor-pointer absolute top-4 left-4`}
@@ -73,7 +73,7 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 						{title}
 					</h2>
 				</div>
-				<div className="flex flex-[0.8] w-full h-full flex-col xs:justify-center gap-1  px-[1em] md:pb-[3em]">
+				<div className="flex  flex-1 xs:flex-[0.8] w-full h-full flex-col xs:justify-center gap-1  px-[1em] md:pb-[3em]">
 					<h2 className="md:hidden  m-none font-semibold text-2xl font-bold text-white z-[10] font-poppins ">
 						{title}
 					</h2>

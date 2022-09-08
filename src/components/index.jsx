@@ -12,7 +12,7 @@ import GetStarted from './get-started';
 // import Testimonials from './test-testimonials';
 import Featured from './featured';
 import Responsive from './test-testimonials';
-import HowItWorks from './how-it-works-card';
+// import HowItWorks from './how-it-works-card';
 import HowItWorksCard from './howItWorksCard';
 import HowItWorksSection from './how-it-works-section';
 import Testimonials from './../components/testimonials';
@@ -31,7 +31,7 @@ export {
 	CTA,
 	GetStarted,
 	Featured,
-	HowItWorks,
+	// HowItWorks,
 	HowItWorksCard,
 	HowItWorksSection,
 	Testimonials,
