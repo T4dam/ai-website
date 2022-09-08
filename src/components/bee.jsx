@@ -7,7 +7,7 @@ const Bee = () => {
 	return (
 		<section
 			id="product"
-			className={`${layout.sectionReverse} md:justify-center md:items-center gap-4`}
+			className={`${layout.sectionReverse} md:justify-center md:items-center gap-5`}
 		>
 			<div
 				className={` ${layout.sectionImgReverse} box h-full w-full relative`}

@@ -29,7 +29,7 @@ const FeatureCards = ({ title, content, icon, index }) => {
 					<img
 						src={icon}
 						alt="icon"
-						className="w-[50%] h-[50%] object-contain"
+						className="h-[35px] w-[35px] object-contain"
 					/>
 				</motion.div>
 			</div>
