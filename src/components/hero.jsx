@@ -24,9 +24,11 @@ const Hero = () => {
 	return (
 		<section
 			id="home"
-			className={`flex flex-col md:flex-row ${styles.paddingY}`}
+			className={`flex flex-col md:flex-row ${styles.paddingY} w-auto h-[955px] md:h-full`}
 		>
-			<div className={`flex-1 ${styles.flexStart} flex-col `}>
+			<div
+				className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col `}
+			>
 				{/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 ">
 					<img
 						src={discount}
@@ -58,7 +60,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] xs:leading-[75px] leading-[60px]">
+				<h1 className="block font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] xs:leading-[75px] leading-[60px]">
 					Smart Drones
 				</h1>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -72,7 +74,7 @@ const Hero = () => {
 			</div>
 
 			<div
-				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative`}
+				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative w-auto h-[555px]`}
 			>
 				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />
