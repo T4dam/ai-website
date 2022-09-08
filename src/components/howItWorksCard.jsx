@@ -25,7 +25,7 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 				<div className="w-full flex flex-col flex-1 xs:flex-[1.2] relative items-center justify-end py-[1em] px-[15px]">
 					<div className=" absolute top-0 left-0 w-[100%] overflow-hidden h-[100%]  rounded-tr-[25px]">
 						<div
-							className={`w-[44px] h-[44px] rounded-full ${styles.flexCenter} bg-blue-gradient cursor-pointer absolute top-4 left-4`}
+							className={`hidden xs:inline-flex w-[44px] h-[44px] rounded-full ${styles.flexCenter} bg-blue-gradient cursor-pointer absolute top-4 left-4`}
 						>
 							<motion.div
 								whileHover={{

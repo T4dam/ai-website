@@ -20,7 +20,7 @@ const HowItWorksSection = () => {
 					</p>
 				</div>
 			</div>
-			<div className=" flex flex-1 flex-col md:flex-row  gap-7 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
+			<div className=" flex flex-1 flex-col md:flex-row px-[18px] xs:px-0 gap-7 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
 				{howItWorks.map((item) => {
 					return <HowItWorksCard key={item.id} {...item} />;
 				})}
