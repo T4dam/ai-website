@@ -1,52 +1,24 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { feedback } from '../constants';
-import styles from '../style';
-import FeedbackCard from './feedback-card';
 import { ImQuotesRight } from 'react-icons/im';
+import { Autoplay } from 'swiper';
+import styles from '../style';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
+
+// import './styles.css';
+
+// import required modules
+import { Pagination } from 'swiper';
 
 const Testimonials = () => {
-	const settings = {
-		dots: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 3,
-		slidesToScroll: 4,
-		initialSlide: 0,
-
-		responsive: [
-			{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					infinite: true,
-					dots: true,
-				},
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 2,
-					initialSlide: 2,
-				},
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 0,
-				},
-			},
-		],
-	};
 	return (
-		<section
-			id="clients"
-			className={`${styles.paddingY} hidden xs:block flex-col relative `}
-		>
+		<section id="clients" className={`${styles.paddingY}  flex-col relative `}>
 			<div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
 				<h2 className={styles.heading2}>
 					Changing the world
@@ -60,40 +32,70 @@ const Testimonials = () => {
 					</p>
 				</div>
 			</div>
-			<div className="bg-primary">
-				<Slider {...settings}>
-					{feedback.map((item) => {
-						return (
+			<Swiper
+				autoplay={{
+					delay: 5000,
+					disableOnInteraction: false,
+				}}
+				// slidesPerView={1}
+				spaceBetween={10}
+				grabCursor={true}
+				pagination={{
+					clickable: true,
+					dynamicBullets: true,
+				}}
+				breakpoints={{
+					640: {
+						slidesPerView: 1,
+						spaceBetween: 20,
+					},
+					768: {
+						slidesPerView: 2,
+						spaceBetween: 40,
+					},
+					1250: {
+						slidesPerView: 3,
+						spaceBetween: 50,
+					},
+				}}
+				modules={[Autoplay, Pagination]}
+				className="mySwiper"
+			>
+				{feedback.map((item) => {
+					return (
+						<SwiperSlide>
 							<div
 								key={item.id}
-								className="bg-black-gradient h-[380px] lg:h-[335px] dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl "
+								className="h-[340px] bg-black-gradient mt-2 bg-blue-200 rounded-2xl"
 							>
-								<div className="w-[100px] h-[100px] mt-[-70px] mx-auto">
-									<div className="p-1 bg-black-gradient rounded-full">
-										<img src={item.img} className="m-auto rounded-full" />
+								<div className="mx-[40px]">
+									<div className="w-[100px] h-[100px] mt-[-48px] mx-auto">
+										<div className="p-1 bg-black-gradient rounded-full">
+											<img src={item.img} className="m-auto rounded-full" />
+										</div>
 									</div>
-								</div>
-								<div className="flex justify-between items-center">
-									<div>
-										<h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white dark:text-white mt-5 text-base font-medium tracking-tight">
-											{item.name}
-										</h3>
-										<p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
-											{item.title}
-										</p>
+									<div className="flex justify-between items-center">
+										<div>
+											<h3 className="font-poppins font-semibold text-[20px] leading-[32px] text-white dark:text-white mt-5 text-base font-medium tracking-tight">
+												{item.name}
+											</h3>
+											<p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+												{item.title}
+											</p>
+										</div>
+										<ImQuotesRight
+											style={{ color: '#5ce1e6', fontSize: '40px' }}
+										/>
 									</div>
-									<ImQuotesRight
-										style={{ color: '#5ce1e6', fontSize: '40px' }}
-									/>
+									<p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10 dark:text-slate-400 mt-4 ">
+										{item.content}
+									</p>
 								</div>
-								<p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10 dark:text-slate-400 mt-4 ">
-									{item.content}
-								</p>
 							</div>
-						);
-					})}
-				</Slider>
-			</div>
+						</SwiperSlide>
+					);
+				})}
+			</Swiper>
 		</section>
 	);
 };

@@ -16,7 +16,7 @@ const HowItWorksSection = () => {
 				<h2 className={styles.heading2}>How it works</h2>
 				<div className="w-full md:mt-0 mt-6 flex justify-end">
 					<p className={`${styles.paragraph} text-left max-w-[470px]`}>
-						The most powerful drones humanity will ever need is created.
+						Three simple steps to get you off the ground
 					</p>
 				</div>
 			</div>

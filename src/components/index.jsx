@@ -9,13 +9,13 @@ import Navbar from './navbar';
 import Footer from './footer';
 import CTA from './cta';
 import GetStarted from './get-started';
-import Testimonials from './testimonials';
+// import Testimonials from './test-testimonials';
 import Featured from './featured';
-import Responsive from './testimonials';
+import Responsive from './test-testimonials';
 import HowItWorks from './how-it-works-card';
 import HowItWorksCard from './howItWorksCard';
 import HowItWorksSection from './how-it-works-section';
-import Testi from './testi';
+import Testimonials from './../components/testimonials';
 
 export {
 	Responsive,
@@ -30,10 +30,9 @@ export {
 	Footer,
 	CTA,
 	GetStarted,
-	Testimonials,
 	Featured,
 	HowItWorks,
 	HowItWorksCard,
 	HowItWorksSection,
-	Testi,
+	Testimonials,
 };
