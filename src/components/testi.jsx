@@ -6,6 +6,7 @@ import { ImQuotesRight } from 'react-icons/im';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
 
 // import './styles.css';
@@ -17,10 +18,16 @@ export default function App() {
 	return (
 		<>
 			<Swiper
+				autoplay={{
+					delay: 1000,
+					disableOnInteraction: false,
+				}}
 				slidesPerView={1}
 				spaceBetween={10}
+				grabCursor={true}
 				pagination={{
 					clickable: true,
+					dynamicBullets: true,
 				}}
 				breakpoints={{
 					640: {
@@ -31,7 +38,7 @@ export default function App() {
 						slidesPerView: 2,
 						spaceBetween: 40,
 					},
-					1024: {
+					1250: {
 						slidesPerView: 3,
 						spaceBetween: 50,
 					},
@@ -42,9 +49,12 @@ export default function App() {
 				{feedback.map((item) => {
 					return (
 						<SwiperSlide>
-							<div key={item.id}>
+							<div
+								key={item.id}
+								className="h-[340px] bg-black-gradient mt-2 bg-blue-200 rounded-2xl"
+							>
 								<div className="mx-[40px]">
-									<div className="w-[100px] h-[100px] mt-[-70px] mx-auto">
+									<div className="w-[100px] h-[100px] mt-[-48px] mx-auto">
 										<div className="p-1 bg-black-gradient rounded-full">
 											<img src={item.img} className="m-auto rounded-full" />
 										</div>
