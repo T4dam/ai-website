@@ -187,14 +187,14 @@ export const footerLinks = [
 		],
 	},
 	{
-		title: 'Partner',
+		title: 'Other projects',
 		links: [
 			{
-				name: 'Our Partners',
+				name: 'CoinTrack',
 				link: '#',
 			},
 			{
-				name: 'Become a Partner',
+				name: 'Tasky',
 				link: '#',
 			},
 		],

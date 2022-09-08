@@ -27,7 +27,7 @@ const Hero = () => {
 			className={`flex flex-col md:flex-row ${styles.paddingY} w-auto h-[955px] md:h-full`}
 		>
 			<div
-				className={`flex-1 ${styles.flexStart} ${styles.paddingX} flex-col `}
+				className={`flex-1 ${styles.flexStart} md:pl-32 md:pr-0 sd:px-32 sm:px-16 px-6 flex-col `}
 			>
 				{/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 ">
 					<img
@@ -74,7 +74,7 @@ const Hero = () => {
 			</div>
 
 			<div
-				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative w-auto h-[555px]`}
+				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative w-auto h-[555px] md:pr-16`}
 			>
 				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />

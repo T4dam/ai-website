@@ -59,7 +59,7 @@ const About = () => {
 					culpa, asperiores nulla? Tempora quisquam eius totam vero iste quos
 					provident mollitia.
 				</p>
-				<Button styles="mt-10" text="Get started" />
+				<Button styles="mt-10" text="Learn more" />
 			</div>
 			<div className={`${layout.sectionImg} flex-col`}>
 				{features.map((item, index) => (
