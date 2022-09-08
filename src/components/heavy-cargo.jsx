@@ -5,7 +5,9 @@ import styles, { layout } from '../style';
 
 const HeavyCargo = () => {
 	return (
-		<section className={`${layout.section}`}>
+		<section
+			className={`${layout.section} md:justify-center md:items-center gap-4`}
+		>
 			<div className={`${layout.sectionInfo}`}>
 				<h2 className={styles.heading2}>
 					Cross continental <br className="hidden sm:block" />
@@ -23,7 +25,7 @@ const HeavyCargo = () => {
 				<img
 					src={drone2}
 					alt="drone"
-					className="w-full h-full relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-red-500/50 rounded-xl"
+					className="w-full h-full relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl obejct-cover"
 				/>
 			</div>
 		</section>

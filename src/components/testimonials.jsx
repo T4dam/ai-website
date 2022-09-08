@@ -63,11 +63,8 @@ const Testimonials = () => {
 			>
 				{feedback.map((item) => {
 					return (
-						<SwiperSlide>
-							<div
-								key={item.id}
-								className="h-[340px] bg-black-gradient mt-2 bg-blue-200 rounded-2xl"
-							>
+						<SwiperSlide key={item.id}>
+							<div className="h-[340px] bg-black-gradient mt-2 bg-blue-200 rounded-2xl">
 								<div className="mx-[40px]">
 									<div className="w-[100px] h-[100px] mt-[-48px] mx-auto">
 										<div className="p-1 bg-black-gradient rounded-full">

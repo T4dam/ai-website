@@ -5,12 +5,17 @@ import Button from './button';
 
 const Bee = () => {
 	return (
-		<section id="product" className={`${layout.sectionReverse}`}>
-			<div className={` ${layout.sectionImgReverse} box`}>
+		<section
+			id="product"
+			className={`${layout.sectionReverse} md:justify-center md:items-center gap-4`}
+		>
+			<div
+				className={` ${layout.sectionImgReverse} box h-full w-full relative`}
+			>
 				<img
 					src={drone1}
 					alt="bills"
-					className="w-full h-full relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl"
+					className="w-full h-full z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl object-cover"
 				/>
 
 				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />

@@ -100,7 +100,7 @@ export const feedback = [
 		img: person03,
 	},
 	{
-		id: 'feedback-3',
+		id: 'feedback-4',
 		content:
 			'Such a wonderful technology. I am glad I invested in the early stage of development.',
 		name: 'Lisa Groot',
@@ -108,7 +108,7 @@ export const feedback = [
 		img: person04,
 	},
 	{
-		id: 'feedback-3',
+		id: 'feedback-5',
 		content:
 			'Most powerful device I have ever used. I am humbled by the technology.',
 		name: 'John Vainer',
