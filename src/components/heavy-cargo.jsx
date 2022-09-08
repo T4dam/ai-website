@@ -9,9 +9,10 @@ const HeavyCargo = () => {
 			className={`${layout.section} md:justify-center md:items-center gap-4`}
 		>
 			<div className={`${layout.sectionInfo}`}>
-				<h2 className={styles.heading2}>
+				<h2 className={`${styles.heading2} md:text-[38px] mg:text-[40px]`}>
 					Cross continental <br className="hidden sm:block" />
-					flights with our new tactical drone
+					flights with our new <br className="hidden sm:block" />
+					tactical drone
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eaque

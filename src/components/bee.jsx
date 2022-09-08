@@ -22,7 +22,7 @@ const Bee = () => {
 				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
 			</div>
 			<div className={`${layout.sectionInfo}`}>
-				<h2 className={styles.heading2}>
+				<h2 className={`${styles.heading2} md:text-[38px] mg:text-[40px] `}>
 					This friendly bee
 					<br className="hidden sm:block" />
 					will fit through <br className="hidden sm:block" />
