@@ -21,7 +21,7 @@ const Blog = () => {
 					</p> */}
 				</div>
 			</div>
-			<div className=" flex flex-1 flex-col md:flex-row px-[25px] xs:px-0 gap-12 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
+			<div className=" flex flex-1 flex-col mg:flex-row xs:px-0 gap-12 md:gap-5 align-center md:justify-between w-full feedback-container relative z-[1]">
 				{news.map((item) => {
 					return <BlogCard key={item.id} {...item} />;
 				})}
