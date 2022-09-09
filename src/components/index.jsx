@@ -16,6 +16,8 @@ import Responsive from './test-testimonials';
 import HowItWorksCard from './howItWorksCard';
 import HowItWorksSection from './how-it-works-section';
 import Testimonials from './../components/testimonials';
+import Blog from './blog';
+import BlogCard from './blog-card';
 
 export {
 	Responsive,
@@ -35,4 +37,6 @@ export {
 	HowItWorksCard,
 	HowItWorksSection,
 	Testimonials,
+	Blog,
+	BlogCard,
 };

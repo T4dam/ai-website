@@ -38,6 +38,9 @@ import credit from './credit.svg';
 import creditShadow from './credit-shadow.svg';
 import worldShadow from './world-shadow.svg';
 import cloudShadow from './cloud-shadow.svg';
+import robot1 from './robot1.png';
+import circuit from './circuit.png';
+import robot2 from './robot2.png';
 
 export {
 	airbnb,
@@ -81,4 +84,7 @@ export {
 	creditShadow,
 	worldShadow,
 	cloudShadow,
+	robot1,
+	robot2,
+	circuit,
 };
