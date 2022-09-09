@@ -31,10 +31,10 @@ import {
 } from '../assets';
 
 export const navLinks = [
-	{
-		id: 'home',
-		title: 'Home',
-	},
+	// {
+	// 	id: 'home',
+	// 	title: 'Home',
+	// },
 	{
 		id: 'howitworks',
 		title: 'How it works',
@@ -47,10 +47,10 @@ export const navLinks = [
 		id: 'product',
 		title: 'Product',
 	},
-	// {
-	// 	id: 'clients',
-	// 	title: 'Testimonials',
-	// },
+	{
+		id: 'articles',
+		title: 'Articles',
+	},
 ];
 
 export const features = [
