@@ -25,6 +25,9 @@ import {
 	creditShadow,
 	worldShadow,
 	cloudShadow,
+	robot1,
+	robot2,
+	circuit,
 } from '../assets';
 
 export const navLinks = [
@@ -286,5 +289,22 @@ export const featured = [
 	{
 		id: 'feature-4',
 		logo: techradar,
+	},
+];
+export const news = [
+	{
+		id: 'news-1',
+		img: robot2,
+		title: 'Thinking drone company eyes humanoind robot industry',
+	},
+	{
+		id: 'news-2',
+		img: circuit,
+		title: 'Aiddron CEO raises 1.5B saying humanoids are the future',
+	},
+	{
+		id: 'news-3',
+		img: robot1,
+		title: 'Here is a concept of a military robot powered by Aiddron AI',
 	},
 ];
