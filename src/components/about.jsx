@@ -4,28 +4,30 @@ import styles, { layout } from '../style';
 import Button from './button';
 import { motion } from 'framer-motion';
 
+const iconMotion = {
+	Hover: {
+		position: 'relative',
+		zIndex: 1,
+		scale: [1, 1.4, 1.2],
+		rotate: [0, 10, -10, 0],
+		transition: {
+			duration: 0.2,
+		},
+	},
+};
+
 const FeatureCards = ({ title, content, icon, index }) => {
 	return (
-		<div
+		<motion.div
+			whileHover="Hover"
 			className={`flex flex-1 p-6 rounded-[20px] ${
 				index !== features.length - 1 ? 'mb-6' : 'mb-0'
-			} feature-card`}
+			} feature-card `}
 		>
 			<div
 				className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
 			>
-				<motion.div
-					whileHover={{
-						position: 'relative',
-						zIndex: 1,
-						scale: [1, 1.4, 1.2],
-						rotate: [0, 10, -10, 0],
-						transition: {
-							duration: 0.2,
-						},
-					}}
-					className={`${styles.flexCenter}`}
-				>
+				<motion.div variants={iconMotion} className={`${styles.flexCenter}`}>
 					<img
 						src={icon}
 						alt="icon"
@@ -41,7 +43,7 @@ const FeatureCards = ({ title, content, icon, index }) => {
 					{content}
 				</p>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
