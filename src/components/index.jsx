@@ -18,6 +18,7 @@ import HowItWorksSection from './how-it-works-section';
 import Testimonials from './../components/testimonials';
 import Blog from './blog';
 import BlogCard from './blog-card';
+import SignUp from './signup';
 
 export {
 	Responsive,
@@ -39,4 +40,5 @@ export {
 	Testimonials,
 	Blog,
 	BlogCard,
+	SignUp,
 };
