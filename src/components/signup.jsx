@@ -29,12 +29,12 @@ const SignUp = () => {
 									<input
 										type="email"
 										placeholder="Email"
-										className=" w-[290px] lg:w-full rounded-l-lg w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] "
+										className="  border border-slate-300 w-[290px] h-[50px] lg:w-full rounded-l-lg w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] text-white  "
 									/>
 
 									<button
 										type="button"
-										className={`bg-gradient-to-b from-cyan-300 to-[#3c98af] hover:bg-gradient-to-t py-3 px-6 font-poppins bg-blue-gradient font-medium text-[18px] text-primary rounded-r-lg outline-none shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 `}
+										className={` hover:bg-gradient-to-b from-cyan-300 to-[#3c98af] hover:text-black h-[50px] py-3 px-6 font-poppins border border-cyan-300 text-cyan-300 font-medium text-[18px] text-primary rounded-r-lg outline-none shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 transition-all duration-300 flex justify-center items-center `}
 									>
 										Submit
 									</button>
@@ -61,12 +61,12 @@ const SignUp = () => {
 								<input
 									type="email"
 									placeholder="Email"
-									className="w-full ss:w-[290px] lg:w-full rounded-l-lg w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] "
+									className="w-full ss:w-[290px] lg:w-full  border border-slate-300  h-[50px] lg:w-full rounded-l-lg w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] text-white "
 								/>
 
 								<button
 									type="button"
-									className={`py-4 px-2 xs:py-3 xs:px-6 font-poppins bg-gradient-to-b from-cyan-300 to-[#3c98af] font-medium text-[18px] text-primary rounded-r-lg outline-none shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:bg-gradient-to-t `}
+									className={`py-4 px-2 xs:py-3 xs:px-6 hover:bg-gradient-to-b from-cyan-300 to-[#3c98af] hover:text-black h-[50px] py-3 px-6 font-poppins border border-cyan-300 text-cyan-300 font-medium text-[18px] text-primary rounded-r-lg outline-none shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 transition-all duration-300 flex justify-center items-center  `}
 								>
 									Submit
 								</button>
