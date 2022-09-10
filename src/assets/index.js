@@ -41,7 +41,7 @@ import cloudShadow from './cloud-shadow.svg';
 import robot1 from './robot1.png';
 import circuit from './circuit.png';
 import robot2 from './robot2.png';
-import glassesCut from './glassesCut.png';
+import glassesCut1 from './glassesCut1.png';
 
 export {
 	airbnb,
@@ -88,5 +88,5 @@ export {
 	robot1,
 	robot2,
 	circuit,
-	glassesCut,
+	glassesCut1,
 };

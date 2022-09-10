@@ -36,7 +36,7 @@ const App = () => (
 				<HeavyCargo />
 				<Testimonials />
 				{/* <Testimonials /> */}
-				<CTA />
+				{/* <CTA /> */}
 				<SignUp />
 				<Blog />
 				<Footer />
