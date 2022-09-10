@@ -103,6 +103,9 @@
 .box {
 	position: relative;
 }
+input {
+	@apply bg-[#505050];
+}
 
 /* .box:before {
 	content: '';
