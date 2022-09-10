@@ -64,6 +64,21 @@
 	);
 }
 
+.bg-black-gradient-3 {
+	background: linear-gradient(
+		144.39deg,
+		#ffffff -278.56%,
+		#6d6d6d -78.47%,
+		#11101d 91.61%
+	);
+}
+
+@media screen and (min-width: 1060px) {
+	.bg-black-gradient-3 {
+		background: transparent;
+	}
+}
+
 .bg-gray-gradient {
 	background: linear-gradient(
 		153.47deg,
