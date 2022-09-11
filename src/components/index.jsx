@@ -1,44 +1,44 @@
 import Bee from './bee';
-import FeedbackCard from './feedback-card';
+// import FeedbackCard from './feedback-card';
 import About from './about';
 import HeavyCargo from './heavy-cargo';
-import Clients from './clients';
+// import Clients from './clients';
 import Hero from './hero';
 import Stats from './stats';
 import Navbar from './navbar';
 import Footer from './footer';
 import CTA from './cta';
-import GetStarted from './get-started';
+// import GetStarted from './get-started';
 // import Testimonials from './test-testimonials';
 import Featured from './featured';
-import Responsive from './test-testimonials';
+// import Responsive from './test-testimonials';
 // import HowItWorks from './how-it-works-card';
 import HowItWorksCard from './howItWorksCard';
 import HowItWorksSection from './how-it-works-section';
 import Testimonials from './../components/testimonials';
-import Blog from './blog';
-import BlogCard from './blog-card';
-import SignUp from './signup';
+// import Blog from './blog';
+// import BlogCard from './blog-card';
+// import SignUp from './signup';
 
 export {
-	Responsive,
+	// Responsive,
 	Bee,
-	FeedbackCard,
+	// FeedbackCard,
 	About,
 	HeavyCargo,
-	Clients,
+	// Clients,
 	Hero,
 	Stats,
 	Navbar,
 	Footer,
 	CTA,
-	GetStarted,
+	// GetStarted,
 	Featured,
 	// HowItWorks,
 	HowItWorksCard,
 	HowItWorksSection,
 	Testimonials,
-	Blog,
-	BlogCard,
-	SignUp,
+	// Blog,
+	// BlogCard,
+	// SignUp,
 };

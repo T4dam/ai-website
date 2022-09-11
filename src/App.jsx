@@ -4,15 +4,15 @@ import {
 	Bee,
 	About,
 	HeavyCargo,
-	Hero,
+	// Hero,
 	Navbar,
 	Footer,
-	CTA,
-	Testimonials,
+	// CTA,
+	// Testimonials,
 	Featured,
 	HowItWorksSection,
-	Blog,
-	SignUp,
+	// Blog,
+	// SignUp,
 } from './components';
 
 const App = () => (
@@ -23,9 +23,7 @@ const App = () => (
 			</div>
 		</div>
 		<div className={` bg-primary ${styles.flexStart}`}>
-			<div className={`${styles.boxWidth}`}>
-				<Hero />
-			</div>
+			<div className={`${styles.boxWidth}`}>{/* <Hero /> */}</div>
 		</div>
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
 			<div className={`${styles.boxWidth}`}>
@@ -34,11 +32,11 @@ const App = () => (
 				<About />
 				<Bee />
 				<HeavyCargo />
-				<Testimonials />
+				{/* <Testimonials /> */}
 				{/* <Testimonials /> */}
 				{/* <CTA /> */}
-				<SignUp />
-				<Blog />
+				{/* <SignUp /> */}
+				{/* <Blog /> */}
 				<Footer />
 			</div>
 		</div>

@@ -3,10 +3,6 @@ import {
 	instagram,
 	linkedin,
 	twitter,
-	airbnb,
-	binance,
-	coinbase,
-	dropbox,
 	send,
 	shield,
 	star,
@@ -251,24 +247,24 @@ export const socialMedia = [
 	},
 ];
 
-export const clients = [
-	{
-		id: 'client-1',
-		logo: airbnb,
-	},
-	{
-		id: 'client-2',
-		logo: binance,
-	},
-	{
-		id: 'client-3',
-		logo: coinbase,
-	},
-	{
-		id: 'client-4',
-		logo: dropbox,
-	},
-];
+// export const clients = [
+// 	{
+// 		id: 'client-1',
+// 		logo: airbnb,
+// 	},
+// 	{
+// 		id: 'client-2',
+// 		logo: binance,
+// 	},
+// 	{
+// 		id: 'client-3',
+// 		logo: coinbase,
+// 	},
+// 	{
+// 		id: 'client-4',
+// 		logo: dropbox,
+// 	},
+// ];
 export const featured = [
 	// {
 	// 	id: 'feature-1',

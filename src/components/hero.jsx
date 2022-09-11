@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../style';
-import { discount, robot } from '../assets';
-import GetStarted from './get-started';
+// import { , robot } from '../assets';
+// import GetStarted from './get-started';
 import { apple, google } from './../assets/index';
-import './..//scss/index.scss';
+import './../scss/index.scss';
 
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
