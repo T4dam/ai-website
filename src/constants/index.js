@@ -3,13 +3,8 @@ import {
 	instagram,
 	linkedin,
 	twitter,
-	airbnb,
-	binance,
-	coinbase,
-	dropbox,
 	send,
 	shield,
-	star,
 	entrepreneur,
 	techcrunch,
 	techradar,
@@ -31,10 +26,6 @@ import {
 } from '../assets';
 
 export const navLinks = [
-	// {
-	// 	id: 'home',
-	// 	title: 'Home',
-	// },
 	{
 		id: 'howitworks',
 		title: 'How it works',
@@ -117,24 +108,6 @@ export const feedback = [
 		name: 'John Vainer',
 		title: 'Founder & Leader',
 		img: person05,
-	},
-];
-
-export const stats = [
-	{
-		id: 'stats-1',
-		title: 'User Active',
-		value: '3800+',
-	},
-	{
-		id: 'stats-2',
-		title: 'Trusted by Company',
-		value: '230+',
-	},
-	{
-		id: 'stats-3',
-		title: 'Transaction',
-		value: '$230M+',
 	},
 ];
 
@@ -251,29 +224,7 @@ export const socialMedia = [
 	},
 ];
 
-export const clients = [
-	{
-		id: 'client-1',
-		logo: airbnb,
-	},
-	{
-		id: 'client-2',
-		logo: binance,
-	},
-	{
-		id: 'client-3',
-		logo: coinbase,
-	},
-	{
-		id: 'client-4',
-		logo: dropbox,
-	},
-];
 export const featured = [
-	// {
-	// 	id: 'feature-1',
-	// 	logo: forbes,
-	// },
 	{
 		id: 'feature-2',
 		logo: entrepreneur,
@@ -282,10 +233,7 @@ export const featured = [
 		id: 'feature-3',
 		logo: techcrunch,
 	},
-	// {
-	// 	id: 'feature-4',
-	// 	logo: engadget,
-	// },
+
 	{
 		id: 'feature-4',
 		logo: techradar,
