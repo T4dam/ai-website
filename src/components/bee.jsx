@@ -1,4 +1,4 @@
-import { apple, bill, google, drone1 } from '../assets';
+// import { apple, google, drone1 } from '../assets';
 import styles, { layout } from '../style';
 import Button from './button';
 // import { drone1 } from './../../public/drone1.png';
@@ -12,11 +12,11 @@ const Bee = () => {
 			<div
 				className={` ${layout.sectionImgReverse} box h-full w-full relative`}
 			>
-				<img
+				{/* <img
 					src={drone1}
-					alt="bills"
+					alt="drone"
 					className="w-full h-full z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl object-cover"
-				/>
+				/> */}
 
 				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
 				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />

@@ -13,7 +13,7 @@ const BlogCard = ({ id, title, img }) => {
 	const rotateY = useTransform(x, [-100, 100], [-30, 30]);
 
 	return (
-		<div className="w-100 perspetive flex items-center justify-center transform hover:scale-105 lg:hover:scale-110 transition ease-out duration-300 hover:border rounded-[24px] hover:border-[#00F6FF] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 ">
+		<div className="w-100 perspetive flex items-center justify-center transform hover:scale-105 lg:hover:scale-110 transition ease-out duration-300 hover:border rounded-[24px] hover:border-[#00F6FF] ">
 			<motion.div
 				// drag
 				// whileTap={{ cursor: 'grabbing' }}
@@ -21,9 +21,9 @@ const BlogCard = ({ id, title, img }) => {
 				className=" w-full mg:w-[285px] lg:w-[320px] ll:w-[340px] h-auto ss:h-[265px] mg:h-[500px] flex flex-1 flex-col ss:flex-row mg:flex-col rounded-[25px] shadow-lg cards relative cursor-pointer overflow-hidden"
 			>
 				<div className="w-full flex flex-col flex-1  relative items-center justify-start">
-					<div className="w-full h-[285px] flex items-start justify-start relative overflow-hidden">
+					{/* <div className="w-full h-[285px] flex items-start justify-start relative overflow-hidden">
 						<img src={img} alt="" unselectable="on" className=" object-fill" />
-					</div>
+					</div> */}
 				</div>
 				<div className="flex  flex-1  w-full h-full flex-col justify-center gap-2  px-[1em] md:pb-[3em] py-[20px]">
 					<h2 className="hidden md:block m-none mt-3 font-semibold text-2xl font-bold text-white z-[10] font-poppins ">

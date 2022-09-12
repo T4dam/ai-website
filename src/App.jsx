@@ -7,7 +7,6 @@ import {
 	Hero,
 	Navbar,
 	Footer,
-	CTA,
 	Testimonials,
 	Featured,
 	HowItWorksSection,
@@ -35,8 +34,6 @@ const App = () => (
 				<Bee />
 				<HeavyCargo />
 				<Testimonials />
-				{/* <Testimonials /> */}
-				{/* <CTA /> */}
 				<SignUp />
 				<Blog />
 				<Footer />
