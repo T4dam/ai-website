@@ -25,6 +25,8 @@ const Footer = () => {
 								<img
 									src={logo}
 									alt="robot"
+									width={106}
+									height={72.14}
 									className="w-[106px] h-[72.14px] object-contain"
 								/>
 							</a>
@@ -79,6 +81,8 @@ const Footer = () => {
 							<a
 								href={item.link}
 								key={item.id}
+								height={21}
+								width={21}
 								className={`${
 									index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'
 								} w-[21px] h-[21px] object-contain cursor-pointer`}

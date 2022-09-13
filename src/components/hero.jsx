@@ -1,9 +1,6 @@
-import React from 'react';
 import styles from '../style';
 import { apple, google } from './../assets/index';
-import './..//scss/index.scss';
-
-// import { Suspense } from 'react';
+import './../scss/index.scss';
 
 const Hero = () => {
 	return (
@@ -29,17 +26,21 @@ const Hero = () => {
 				</h1>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa
-					consectetur, dolorem aliquam sunt provident qui deserunt.
+					consectetur.
 				</p>
 				<div className="flex flex-row flex-wrap items-center py-[12px] px-4 bg-discount-gradient rounded-[10px] mb-2 gap-4 mt-4">
 					<img
 						src={apple}
 						alt=""
+						width={120}
+						heigh={39}
 						className="w-[120] h-[39] xs:w-[120px] xs:h-[39px] "
 					/>
 					<img
 						src={google}
 						alt=""
+						width={120}
+						heigh={39}
 						className="w-[120] h-[39] xs:w-[120px] xs:h-[39px]"
 					/>
 				</div>

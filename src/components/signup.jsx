@@ -1,4 +1,3 @@
-import React from 'react';
 import { glassesCut4 } from '../assets';
 import styles, { layout } from '../style';
 
@@ -76,7 +75,7 @@ const SignUp = () => {
 						<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 						<img
 							src={glassesCut4}
-							alt="drone"
+							alt="person with goggles"
 							className="w-full h-full relative z-[5]  obejct-cover"
 						/>
 					</div>

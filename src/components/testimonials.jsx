@@ -1,19 +1,12 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { feedback } from '../constants';
-// import { ImQuotesRight } from 'react-icons/lib/im';
 import { Autoplay } from 'swiper';
 import styles from '../style';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
 
-// import './styles.css';
-
-// import required modules
 import { Pagination } from 'swiper';
 
 const Testimonials = () => {
@@ -37,7 +30,6 @@ const Testimonials = () => {
 					delay: 5000,
 					disableOnInteraction: false,
 				}}
-				// slidesPerView={1}
 				spaceBetween={10}
 				grabCursor={true}
 				pagination={{

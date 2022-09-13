@@ -15,6 +15,8 @@ const Featured = () => {
 							<img
 								src={item.logo}
 								alt="logo"
+								width={100}
+								hight={50}
 								className={`sm:w-[192px] w-[100px] object-contain ${
 									index === featured.length - 1
 										? 'sm:w-[140px]'

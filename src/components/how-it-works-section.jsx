@@ -1,10 +1,6 @@
-import React from 'react';
 import { howItWorks } from '../constants';
-// import { feedback } from '../constants';
 import styles from '../style';
 import { HowItWorksCard } from '.';
-// import '~slick-carousel/slick/slick.css';
-// import '~slick-carousel/slick/slick-theme.css';
 
 const HowItWorksSection = () => {
 	return (

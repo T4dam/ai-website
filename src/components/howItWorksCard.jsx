@@ -1,9 +1,5 @@
 import { useMotionValue, useTransform } from 'framer-motion';
-import React from 'react';
-// import { logo } from './../assets';
 import { motion } from 'framer-motion';
-import logo from './../assets/logo.svg';
-// import { GrFormNext } from 'react-icons/gr';
 import styles from '../style';
 
 const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
@@ -39,10 +35,8 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 								className={`${styles.flexCenter} w-[38px] h-[38px] rounded-full bg-black-gradient`}
 							>
 								<p className="font-semibold text-white text-2xl">{id}</p>
-								{/* <img src="" alt="" className="w-[50%] h-[50%] object-contain" /> */}
 							</motion.div>
 						</div>
-						{/* <div className="absolute w-[350px] h-[350px] top-[-4.2em] right-[-10em] z-[5] bg-[#24a2b5] rounded-[50%]"></div> */}
 					</div>
 					<div className="w-full h-full flex items-center justify-center">
 						<img
