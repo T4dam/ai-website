@@ -4,14 +4,6 @@ import { apple, google } from './../assets/index';
 import './..//scss/index.scss';
 
 // import { Suspense } from 'react';
-// import { Canvas } from '@react-three/fiber';
-// // import { BakeShadows, OrbitControls, Stage } from '@react-three/drei';
-// import { Model } from './model';
-// import {
-// 	PresentationControls,
-// 	Environment,
-// 	ContactShadows,
-// } from '@react-three/drei';
 
 const Hero = () => {
 	return (

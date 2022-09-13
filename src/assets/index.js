@@ -9,8 +9,8 @@ import facebook from './facebook.svg';
 import instagram from './instagram.svg';
 import linkedin from './linkedin.svg';
 import twitter from './twitter.svg';
-import drone1 from './drone1.png';
-import drone2 from './drone2.png';
+import drone1 from './drone1.jpeg';
+import drone2 from './drone2.jpeg';
 import entrepreneur from './entrepreneur.png';
 import engadget from './engadget.png';
 import techcrunch from './techcrunch.png';
@@ -27,10 +27,10 @@ import credit from './credit.svg';
 import creditShadow from './credit-shadow.svg';
 import worldShadow from './world-shadow.svg';
 import cloudShadow from './cloud-shadow.svg';
-import robot1 from './robot1.png';
-import circuit from './circuit.png';
-import robot2 from './robot2.png';
-import glassesCut1 from './glassesCut1.png';
+import robot1 from './robot1.jpeg';
+import circuit from './circuit.jpeg';
+import robot2 from './robot2.jpeg';
+import glassesCut4 from './glassesCut4.png';
 
 export {
 	logo,
@@ -65,5 +65,5 @@ export {
 	robot1,
 	robot2,
 	circuit,
-	glassesCut1,
+	glassesCut4,
 };

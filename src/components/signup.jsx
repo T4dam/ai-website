@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from './button';
-// import { card, drone2, glassesCut1 } from '../assets';
+import { glassesCut4 } from '../assets';
 import styles, { layout } from '../style';
 
 const SignUp = () => {
@@ -75,11 +74,11 @@ const SignUp = () => {
 					</div>
 					<div className={`box order-last ${layout.sectionImg}`}>
 						<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
-						{/* <img
-							src={glassesCut1}
+						<img
+							src={glassesCut4}
 							alt="drone"
 							className="w-full h-full relative z-[5]  obejct-cover"
-						/> */}
+						/>
 					</div>
 				</div>
 			</div>

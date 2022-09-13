@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { feedback } from '../constants';
-import { ImQuotesRight } from 'react-icons/im';
+// import { ImQuotesRight } from 'react-icons/lib/im';
 import { Autoplay } from 'swiper';
 import styles from '../style';
 
@@ -80,9 +80,9 @@ const Testimonials = () => {
 												{item.title}
 											</p>
 										</div>
-										<ImQuotesRight
+										{/* <ImQuotesRight
 											style={{ color: '#5ce1e6', fontSize: '40px' }}
-										/>
+										/> */}
 									</div>
 									<p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10 dark:text-slate-400 mt-4 ">
 										{item.content}
