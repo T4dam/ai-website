@@ -30,6 +30,7 @@ import robot1 from './robot1.jpeg';
 import circuit from './circuit.jpeg';
 import robot2 from './robot2.jpeg';
 import glassesCut5 from './glassesCut5-min.png';
+import quotes from './quotes.svg';
 
 export {
 	logo,
@@ -64,4 +65,5 @@ export {
 	robot2,
 	circuit,
 	glassesCut5,
+	quotes,
 };

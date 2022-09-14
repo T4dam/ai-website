@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { feedback } from '../constants';
 import { Autoplay } from 'swiper';
 import styles from '../style';
+import { quotes } from '../assets';
 
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -72,6 +73,7 @@ const Testimonials = () => {
 												{item.title}
 											</p>
 										</div>
+										<img src={quotes} alt="" className="w-[35px] h-[35px]" />
 										{/* <ImQuotesRight
 											style={{ color: '#5ce1e6', fontSize: '40px' }}
 										/> */}
