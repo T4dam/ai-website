@@ -73,7 +73,10 @@ const Testimonials = () => {
 												{item.title}
 											</p>
 										</div>
-										<img src={quotes} alt="" className="w-[35px] h-[35px]" />
+
+										<div className="w-[35px] h-[35px]">
+											<img src={quotes} alt="" className="w-[35px] h-[35px]" />
+										</div>
 										{/* <ImQuotesRight
 											style={{ color: '#5ce1e6', fontSize: '40px' }}
 										/> */}
