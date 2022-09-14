@@ -1,9 +1,5 @@
 import { useMotionValue, useTransform } from 'framer-motion';
-import React from 'react';
-// import { logo } from './../assets';
 import { motion } from 'framer-motion';
-import logo from './../assets/logo.svg';
-import { GrFormNext } from 'react-icons/gr';
 import styles from '../style';
 
 const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
@@ -39,17 +35,17 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 								className={`${styles.flexCenter} w-[38px] h-[38px] rounded-full bg-black-gradient`}
 							>
 								<p className="font-semibold text-white text-2xl">{id}</p>
-								{/* <img src="" alt="" className="w-[50%] h-[50%] object-contain" /> */}
 							</motion.div>
 						</div>
-						{/* <div className="absolute w-[350px] h-[350px] top-[-4.2em] right-[-10em] z-[5] bg-[#24a2b5] rounded-[50%]"></div> */}
 					</div>
 					<div className="w-full h-full flex items-center justify-center">
 						<img
 							src={shadow}
 							alt=""
 							unselectable="on"
-							className="w-auto h-full userselect-none w-[190px] h-[190px] blur-[2px]"
+							width="190"
+							height="190"
+							className="w-full h-full userselect-none w-[190px] h-[190px] blur-[2px]"
 						/>
 					</div>
 					<div className="w-full h-full absolute flex items-center justify-center">
@@ -65,6 +61,8 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 								src={icon}
 								alt=""
 								unselectable="on"
+								width="190"
+								height="190"
 								className="w-auto h-full userselect-none"
 							/>
 						</motion.div>
@@ -85,7 +83,20 @@ const HowItWorksCard = ({ id, shadow, title, icon, discription }) => {
 						<a className=" mt-2 md:mt-0 block w-[190px] md:w-[130px] flex flex-row  items-center text-white font-poppins font-normal text-[20px] md:text-[16px] leading-[24px] text-dimWhite cursor-pointer ">
 							Learn more
 							<div className=" inline-block flex justify-center items-center ml-2 w-[20px] h-[20px] bg-[#00F6FF]  rounded-[50%]">
-								<GrFormNext />
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									strokeWidth={1.5}
+									stroke="currentColor"
+									className="w-3 h-3 text-slate-900"
+								>
+									<path
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										d="M8.25 4.5l7.5 7.5-7.5 7.5"
+									/>
+								</svg>
 							</div>
 						</a>
 					</div>

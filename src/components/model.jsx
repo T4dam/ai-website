@@ -8,7 +8,7 @@ import { useFrame } from '@react-three/fiber';
 export function Model(props) {
 	const ref = useRef();
 	const { nodes, materials } = useGLTF('/drone.glb');
-	// useFrame((state, delta) => (ref.current.rotation.x += 0.01))
+	// useFrame((state, delta) => (ref.current.rotation.x += 0.01));
 	useFrame((state) => {
 		const t = state.clock.getElapsedTime();
 		ref.current.rotation.x = -Math.PI / 9 + Math.cos(t / 4) / 8;

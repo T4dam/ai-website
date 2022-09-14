@@ -1,7 +1,6 @@
-import { apple, bill, google, drone1 } from '../assets';
+import { drone1 } from '../assets';
 import styles, { layout } from '../style';
 import Button from './button';
-// import { drone1 } from './../../public/drone1.png';
 
 const Bee = () => {
 	return (
@@ -13,14 +12,18 @@ const Bee = () => {
 				className={` ${layout.sectionImgReverse} box h-full w-full relative`}
 			>
 				<img
+					fetchpriority="high"
 					src={drone1}
-					alt="bills"
-					className="w-full h-full z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl object-cover"
+					alt="drone"
+					width={500}
+					height={500}
+					className="w-500 h-500 z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl object-cover"
 				/>
 
-				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
-				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+				{/* <div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
+				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" /> */}
 			</div>
+
 			<div className={`${layout.sectionInfo}`}>
 				<h2 className={`${styles.heading2} md:text-[38px] mg:text-[40px] `}>
 					This friendly bee

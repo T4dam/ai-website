@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { card, drone2 } from '../assets';
+import { drone2 } from '../assets';
 import styles, { layout } from '../style';
 
 const HeavyCargo = () => {
@@ -24,9 +24,12 @@ const HeavyCargo = () => {
 			<div className={`box ${layout.sectionImg}`}>
 				<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 				<img
+					fetchpriority="high"
 					src={drone2}
 					alt="drone"
-					className="w-full h-full relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl obejct-cover"
+					width={500}
+					height={500}
+					className="w-500 h-500 relative z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl obejct-cover"
 				/>
 			</div>
 		</section>
