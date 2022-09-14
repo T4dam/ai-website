@@ -27,7 +27,7 @@ const SignUp = () => {
 									<input
 										type="email"
 										placeholder="Email"
-										className="  border border-slate-300 w-[290px] h-[50px] lg:w-full rounded-l-lg w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] text-white  "
+										className="  border border-slate-300 w-[290px] h-[50px] lg:w-full rounded-l-lg rounded-r-none w-full leading-0 py-3 px-6 font-poppins  outline-none font-medium text-[18px] text-white  "
 									/>
 
 									<button
