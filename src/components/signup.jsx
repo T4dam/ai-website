@@ -1,4 +1,4 @@
-import { glassesCut4 } from '../assets';
+import { glassesCut5 } from '../assets';
 import styles, { layout } from '../style';
 
 const SignUp = () => {
@@ -74,7 +74,7 @@ const SignUp = () => {
 					<div className={`box order-last ${layout.sectionImg}`}>
 						<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 						<img
-							src={glassesCut4}
+							src={glassesCut5}
 							alt="person with goggles"
 							className="w-full h-full relative z-[5]  obejct-cover"
 						/>

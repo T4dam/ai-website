@@ -12,7 +12,6 @@ import twitter from './twitter.svg';
 import drone1 from './drone1.jpeg';
 import drone2 from './drone2.jpeg';
 import entrepreneur from './entrepreneur.png';
-import engadget from './engadget.png';
 import techcrunch from './techcrunch.png';
 import techradar from './techradar.png';
 import person01 from './person01.jpg';
@@ -30,7 +29,7 @@ import cloudShadow from './cloud-shadow.svg';
 import robot1 from './robot1.jpeg';
 import circuit from './circuit.jpeg';
 import robot2 from './robot2.jpeg';
-import glassesCut4 from './glassesCut4.png';
+import glassesCut5 from './glassesCut5-min.png';
 
 export {
 	logo,
@@ -48,7 +47,6 @@ export {
 	drone2,
 	entrepreneur,
 	techcrunch,
-	engadget,
 	techradar,
 	person01,
 	person02,
@@ -65,5 +63,5 @@ export {
 	robot1,
 	robot2,
 	circuit,
-	glassesCut4,
+	glassesCut5,
 };

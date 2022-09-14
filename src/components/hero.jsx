@@ -1,6 +1,15 @@
 import styles from '../style';
 import { apple, google } from './../assets/index';
 import './../scss/index.scss';
+import { Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
+// import { BakeShadows, OrbitControls, Stage } from '@react-three/drei';
+import { Model } from './model';
+import {
+	PresentationControls,
+	Environment,
+	ContactShadows,
+} from '@react-three/drei';
 
 const Hero = () => {
 	return (
@@ -49,7 +58,7 @@ const Hero = () => {
 			<div
 				className={`flex-1 flex ${styles.flexCenter} my-10 md:my-0 relative w-auto h-[555px] md:pr-16`}
 			>
-				{/* <Canvas className="z-[99]">
+				<Canvas className="z-[99]">
 					<ambientLight intensity={0.5} />
 					<PresentationControls
 						global
@@ -71,11 +80,11 @@ const Hero = () => {
 						far={4}
 					/>
 					<Environment preset="city" />
-				</Canvas> */}
+				</Canvas>
 
-				{/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
+				<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
 				<div className="absolute z-[0] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
-				<div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div> */}
+				<div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
 			</div>
 			<div className={`ss:hidden ${styles.flexCenter}`}></div>
 		</section>
