@@ -20,8 +20,8 @@ const Bee = () => {
 					className="w-500 h-500 z-[5] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-cyan-500/50 rounded-xl object-cover"
 				/>
 
-				{/* <div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
-				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" /> */}
+				<div className="absolute z-[3] w-[50%] h-[50%] -left-1/2 top-0 rounded-full white__gradient" />
+				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
 			</div>
 
 			<div className={`${layout.sectionInfo}`}>
