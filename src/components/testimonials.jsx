@@ -61,7 +61,10 @@ const Testimonials = () => {
 								<div className="mx-[40px]">
 									<div className="w-[100px] h-[100px] mt-[-48px] mx-auto">
 										<div className="p-1 bg-black-gradient rounded-full">
-											<img src={item.img} className="m-auto rounded-full" />
+											<img
+												src={item.img}
+												className="m-auto max-h-[100px] rounded-full"
+											/>
 										</div>
 									</div>
 									<div className="flex justify-between items-center">
